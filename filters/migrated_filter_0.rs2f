@@ -1,0 +1,554 @@
+meta { name = "Wobbly Filter"; }
+
+// Welcome to the loot filter
+// For more information on 
+// usage, please check
+// https://github.com/riktenx/loot-filters/blob/main/guides/loot-filters.md
+
+// Items to hide
+HIDE("Bones")
+
+// Junk Item
+apply (value:<12)
+{
+  menuTextColor = "ffa0a0a0";
+  textColor = "ffa0a0a0";
+  borderColor = "00000000";
+  backgroundColor = "00000000";
+  showLootbeam = false;
+  notify = false;
+  textAccent = 1;
+  fontType = FONTTYPE_NORMAL;
+}
+
+// Low Value Item
+apply (value:>11)
+{
+  menuTextColor = "ffffffff";
+  textColor = "ffffffff";
+  borderColor = "00000000";
+  backgroundColor = "00000000";
+  showLootbeam = false;
+  notify = false;
+  textAccent = 1;
+  fontType = FONTTYPE_NORMAL;
+}
+
+// Normal Item
+apply (value:>250)
+{
+  menuTextColor = "ffffffff";
+  textColor = "ffffffff";
+  borderColor = "00000000";
+  backgroundColor = "00000000";
+  showLootbeam = false;
+  notify = false;
+  textAccent = 1;
+  fontType = FONTTYPE_NORMAL;
+}
+
+// Magic Item
+apply (value:>500)
+{
+  menuTextColor = "ff8888ff";
+  textColor = "ff8888ff";
+  borderColor = "ff3c3c3c";
+  backgroundColor = "64000000";
+  showLootbeam = false;
+  notify = false;
+  textAccent = 1;
+  fontType = FONTTYPE_NORMAL;
+}
+
+// Rare Item
+apply (value:>1500)
+{
+  menuTextColor = "ffffff77";
+  textColor = "ffffff77";
+  borderColor = "ff3c3c3c";
+  backgroundColor = "64000000";
+  showLootbeam = false;
+  notify = false;
+  textAccent = 1;
+  fontType = FONTTYPE_NORMAL;
+}
+
+// Transmute Orb
+apply (value:>4000)
+{
+  icon = File("i_1_d.png");
+  sound = "rar_0.wav";
+  menuTextColor = "ffbcb287";
+  textColor = "ffbcb287";
+  borderColor = "ffbcb287";
+  backgroundColor = "ff000000";
+  showLootbeam = false;
+  notify = false;
+  textAccent = 1;
+  fontType = FONTTYPE_LARGER;
+}
+
+// Chaos Orb
+apply (value:>10000)
+{
+  icon = File("i_1_g.png");
+  sound = "rar_0.wav";
+  menuTextColor = "ffffcf84";
+  textColor = "ffffcf84";
+  borderColor = "ffffcf84";
+  backgroundColor = "ff4c330c";
+  showLootbeam = false;
+  notify = false;
+  textAccent = 1;
+  fontType = FONTTYPE_LARGER;
+}
+
+// Annul
+apply (value:>35000)
+{
+  icon = File("i_1_i.png");
+  sound = "rar_1.wav";
+  menuTextColor = "ffff6400";
+  textColor = "ffff6400";
+  borderColor = "ffff6400";
+  backgroundColor = "ff530e0e";
+  showLootbeam = true;
+  notify = true;
+  textAccent = 1;
+  fontType = FONTTYPE_LARGER;
+}
+
+// Exalt
+apply (value:>100000)
+{
+  icon = File("i_2_e.png");
+  sound = "rar_2.wav";
+  menuTextColor = "ffffffff";
+  textColor = "ffffffff";
+  borderColor = "ffffffff";
+  backgroundColor = "fff05a23";
+  showLootbeam = true;
+  notify = true;
+  textAccent = 1;
+  fontType = FONTTYPE_LARGER;
+}
+
+// Valuable Unique
+apply (value:>500000)
+{
+  icon = File("i_2_f.png");
+  sound = "rar_4.wav";
+  menuTextColor = "ffffffff";
+  textColor = "ffffffff";
+  borderColor = "ffffffff";
+  backgroundColor = "ffaf6025";
+  showLootbeam = true;
+  notify = true;
+  textAccent = 1;
+  fontType = FONTTYPE_LARGER;
+}
+
+// Divine Orb
+apply (value:>1000000||name:"Clue scroll (master)"||name:"Clue geode (master)")
+{
+  icon = File("i_2_i.png");
+  sound = "rar_5.wav";
+  menuTextColor = "ffff0000";
+  textColor = "ffff0000";
+  borderColor = "ffff0000";
+  backgroundColor = "ffffffff";
+  showLootbeam = true;
+  notify = true;
+  textAccent = 3;
+  fontType = FONTTYPE_LARGER;
+}
+
+// Unique Highlights Tier
+apply (name:"Ensouled *"||name:"Long Bone"||name:"* half of key"||name:"Clue scroll (medium)"||name:"Clue scroll (easy)"||name:"Clue geode (easy)"||name:"Clue geode (medium)")
+{
+  icon = File("i_2_g.png");
+  sound = "rar_2.wav";
+  menuTextColor = "ffaf6025";
+  textColor = "ffaf6025";
+  borderColor = "ffaf6025";
+  backgroundColor = "ff000000";
+  showLootbeam = false;
+  notify = false;
+  textAccent = 1;
+  fontType = FONTTYPE_LARGER;
+}
+
+// Unique Higher Highlights Tier
+apply (name:"Dark Totem *"||name:"Ancient Shard"||name:"Curved Bone"||name:"Clue scroll (hard)"||name:"Clue scroll (elite)"||name:"Clue geode (hard)"||name:"Clue geode (elite)")
+{
+  icon = File("i_2_g.png");
+  sound = "rar_4.wav";
+  menuTextColor = "ffaf6025";
+  textColor = "ff000000";
+  borderColor = "ff000000";
+  backgroundColor = "ffaf6025";
+  showLootbeam = false;
+  notify = false;
+  textAccent = 3;
+  fontType = FONTTYPE_LARGER;
+}
+
+// Application Rules
+
+// Copper
+apply (name:"Copper *") {
+  icon = File("i_4_e.png");
+}
+
+// Bronze
+apply (name:"Bronze *") {
+  icon = File("i_4_b.png");
+}
+
+// Iron
+apply (name:"Iron *") {
+  icon = File("i_4_d.png");
+}
+
+// Steel
+apply (name:"Steel *") {
+  icon = File("i_4_f.png");
+}
+
+// Silver
+apply (name:"Silver *") {
+  icon = File("i_4_f.png");
+}
+
+// Gold
+apply (name:"Gold *") {
+  icon = File("i_4_g.png");
+}
+
+// Mithril
+apply (name:"Mithril *") {
+  icon = File("i_4_n.png");
+}
+
+// Adamantite
+apply (name:"Adamant *"||name:"Adamantite *") {
+  icon = File("i_4_k.png");
+}
+
+// Runite
+apply (name:"Rune *"||name:"Runite *") {
+  icon = File("i_4_n.png");
+}
+
+// Oak
+apply (name:"Oak *") {
+  icon = File("i_4_e.png");
+}
+
+// Willow
+apply (name:"Willow *") {
+  icon = File("i_4_b.png");
+}
+
+// Teak
+apply (name:"Teak *") {
+  icon = File("i_4_a.png");
+}
+
+// Maple
+apply (name:"Maple *") {
+  icon = File("i_4_b.png");
+}
+
+// Mahogany
+apply (name:"Mahogany *") {
+  icon = File("i_4_a.png");
+}
+
+// Yew
+apply (name:"Yew *") {
+  icon = File("i_4_b.png");
+}
+
+// Magic Tree
+apply (name:"Magic *") {
+  icon = File("i_4_n.png");
+}
+
+// Redwood
+apply (name:"Redwood *") {
+  icon = File("i_2_j.png");
+}
+
+// Dragon
+apply (name:"Dragon *") {
+  icon = File("i_4_i.png");
+}
+
+// Air Staff
+apply (name:"Staff of air"||name:"Air battlestaff"||name:"Mystic air staff") {
+  icon = File("i_5_c.png");
+}
+
+// Water Staff
+apply (name:"Staff of water"||name:"Water battlestaff"||name:"Mystic water staff") {
+  icon = File("i_5_n.png");
+}
+
+// Earth Staff
+apply (name:"Staff of earth"||name:"Earth battlestaff"||name:"Mystic earth staff") {
+  icon = File("i_5_l.png");
+}
+
+// Fire Staff
+apply (name:"Staff of fire"||name:"Fire battlestaff"||name:"Mystic fire staff") {
+  icon = File("i_5_i.png");
+}
+
+// Combination Battlestaff
+apply (name:"Dust battlestaff"||name:"Lava battlestaff"||name:"Mist battlestaff"||name:"Mud battlestaff"||name:"Smoke battlestaff"||name:"Steam battlestaff") {
+  icon = File("i_5_f.png");
+}
+
+// Combination Mystic Staff
+apply (name:"Mystic dust staff"||name:"Mystic lava staff"||name:"Mystic mist staff"||name:"Mystic mud staff"||name:"Mystic smoke staff"||name:"Mystic steam staff") {
+  icon = File("i_5_g.png");
+}
+
+// Rune
+apply (name:"Rune essence") {
+  icon = File("i_1_f.png");
+}
+
+// Guthix
+apply (name:"Guthix*"||name:"Book of Balance"||name:"Peaceful blessing"||name:"Rune scimitar(Guthix)"||name:"Staff of balance"||name:"Void Knight*"||name:"Void seal") {
+  icon = File("i_6_guthix.png");
+}
+
+// Saradomin
+apply (name:"Saradomin*"||name:"Holy book"||name:"Holy blessing"||name:"Holy symbol"||name:"Monk's robes"||name:"Rune scimitar (Saradomin)"||name:"Staff of light"||name:"Justiciar armour"||name:"Holy wraps"||name:"Holy sandals"||name:"Devout boots"||name:"Ring of endurance"||name:"Hallowed *"||name:"Holy scythe of vitur"||name:"Holy ghrazi rapier"||name:"Holy sanguinesti staff") {
+  icon = File("i_6_saradomin.png");
+}
+
+// Zamorak
+apply (name:"Zamorak*"||name:"Unholy *"||name:"Elder chaos*"||name:"Dagon'hai robes"||name:"Rune scimitar (Zamorak)"||name:"Inquisitor's armour"||name:"Staff of the dead"||name:"Thammaron's sceptre"||name:"Viggora's chainmace"||name:"Dragon hunter lance"||name:"Elite black armour"||name:"Dark Squall robes") {
+  icon = File("i_6_zamorak.png");
+}
+
+// Armadyl
+apply (name:"Armadyl*"||name:"Book of law"||name:"Honourable blessing"||name:"Craw's bow") {
+  icon = File("i_6_armadyl.png");
+}
+
+// Bandos
+apply (name:"Ancient mace"||name:"Book of war"||name:"War blessing"||name:"Guardian boots"||name:"Echo boots"||name:"Bandos*") {
+  icon = File("i_6_bandos.png");
+}
+
+// Zaros
+apply (name:"Zaros*"||name:"Ancient Staff"||name:"Ancient sceptre"||name:"Book of darkness"||name:"Robes of darkness"||name:"Ancient rune armour"||name:"Ancient dragonhide armour"||name:"Ancient vestment robes"||name:"Ancient blessing"||name:"Ancient halo"||name:"Ancient godsword"||name:"Zaryte crossbow"||name:"Venator bow"||name:"Ancient ceremonial robes"||name:"Torva armour"||name:"Virtus robes"||name:"Zaryte vambraces") {
+  icon = File("i_6_zaros.png");
+}
+
+// Seren
+apply (name:"Seren halo"||name:"Crystal *"||name:"Blade of saeldo*"||name:"Bow of faerdhine*") {
+  icon = File("i_6_seren.png");
+}
+
+// V
+apply (name:"V's shield"||name:"Ballad of the basilisk") {
+  icon = File("i_6_v.png");
+}
+
+// Tumeken
+apply (name:"Tumeken's shadow"||name:"Tumeken's heka") {
+  icon = File("i_6_tumeken.png");
+}
+
+// Elidinis
+apply (name:"Robes of Elidinis"||name:"Elidinis' ward"||name:"Statuette"||name:"Thread of Elidinis"||name:"Divine rune pouch") {
+  icon = File("i_6_elidinis.png");
+}
+
+// Amascut
+apply (name:"Mask of rebirth"||name:"Unholy symbol") {
+  icon = File("i_6_amascut.png");
+}
+
+// Icthlarin
+apply (name:"Holy symbol") {
+  icon = File("i_6_ichtlarin.png");
+}
+
+// Ralos
+apply (name:"Dizana's quiver"||name:"Sunfire fanatic armour"||name:"Tonalztics of ralos"||name:"Tome of the sun") {
+  icon = File("i_6_ralos.png");
+}
+
+// Ranul
+apply (name:"Mask of ranul"||name:"Tome of the moon"||name:"Helmet of the moon") {
+  icon = File("i_6_ranul.png");
+}
+
+// Seeds
+apply (name:"* seed"||name:"* spore") {
+  icon = File("i_6_seed.png");
+}
+
+// Grimy Herb
+apply (name:"Grimy *")
+{
+  icon = File("i_6_grime1.png");
+}
+
+// Clean Herb
+apply (name:"Guam leaf"||
+    name:"Marrentill"||
+    name:"Tarromin"||
+    name:"Harralander"||
+    name:"Ranarr weed"||
+    name:"Toadflax"||
+    name:"Irit leaf"||
+    name:"Avantoe"||
+    name:"Kwuarm"||
+    name:"Huasca"||
+    name:"Snapdragon"||
+	name:"Cadantine"||
+	name:"Lantadyme"||
+	name:"Dwarf weed"||
+	name:"Torstol") {
+  icon = File("i_6_grime0.png");
+}
+
+// Sapphire
+apply (name:"Uncut sapphire"||name:"Sapphire") {
+  icon = File("i_7_n.png");
+}
+
+// Emerald
+apply (name:"Uncut emerald"||name:"Emerald") {
+  icon = File("i_7_l.png");
+}
+
+// Ruby
+apply (name:"Uncut ruby"||name:"Ruby") {
+  icon = File("i_7_h.png");
+}
+
+// Diamond
+apply (name:"Uncut diamond"||name:"Diamond") {
+  icon = File("i_7_f.png");
+}
+
+// Opal
+apply (name:"Uncut opal"||name:"Opal") {
+  icon = File("i_7_a.png");
+}
+
+// Jade
+apply (name:"Uncut jade"||name:"Jade") {
+  icon = File("i_7_k.png");
+}
+
+// Red Topaz
+apply (name:"Uncut jade"||name:"Jade") {
+  icon = File("i_7_j.png");
+}
+
+// Dragonstone
+apply (name:"Uncut dragonstone"||name:"Dragonstone") {
+  icon = File("i_7_o.png");
+}
+
+// Onyx
+apply (name:"Uncut onyx"||name:"Onyx") {
+  icon = File("i_7_c.png");
+}
+
+// Zenyte
+apply (name:"Uncut zenyte"||name:"Zenyte") {
+  icon = File("i_7_g.png");
+}
+
+// Coins
+apply (name:"Coins") {
+  icon = File("i_8_s.png");
+}
+apply (name:"Coins"&&value:>2999) {
+  icon = File("i_8_m.png");
+}
+apply (name:"Coins"&&value:>9999) {
+  icon = File("i_8_l.png");
+}
+
+// Elemental Runes
+apply (name:"Air rune") {
+  icon = File("i_9_a.png");
+}
+apply (name:"Water rune") {
+  icon = File("i_9_b.png");
+}
+apply (name:"Earth rune") {
+  icon = File("i_9_c.png");
+}
+apply (name:"Fire rune") {
+  icon = File("i_9_d.png");
+}
+
+// Catalytic Runes
+apply (name:"Mind rune") {
+  icon = File("i_9_e.png");
+}
+apply (name:"Body rune") {
+  icon = File("i_9_f.png");
+}
+apply (name:"Cosmic rune") {
+  icon = File("i_9_g.png");
+}
+apply (name:"Chaos rune") {
+  icon = File("i_9_h.png");
+}
+apply (name:"Nature rune") {
+  icon = File("i_9_i.png");
+}
+apply (name:"Law rune") {
+  icon = File("i_9_j.png");
+}
+apply (name:"Death rune") {
+  icon = File("i_9_k.png");
+}
+apply (name:"Sunfire rune") {
+  icon = File("i_9_l.png");
+}
+apply (name:"Astral rune") {
+  icon = File("i_9_m.png");
+}
+apply (name:"Blood rune") {
+  icon = File("i_9_n.png");
+}
+apply (name:"Soul rune") {
+  icon = File("i_9_o.png");
+}
+apply (name:"Wrath rune") {
+  icon = File("i_9_p.png");
+}
+
+// Combination Runes
+apply (name:"Mist rune") {
+  icon = File("i_9_q.png");
+}
+apply (name:"Dust rune") {
+  icon = File("i_9_r.png");
+}
+apply (name:"Mud rune") {
+  icon = File("i_9_s.png");
+}
+apply (name:"Smoke rune") {
+  icon = File("i_9_t.png");
+}
+apply (name:"Steam rune") {
+  icon = File("i_9_u.png");
+}
+apply (name:"Lava rune") {
+  icon = File("i_9_v.png");
+}
