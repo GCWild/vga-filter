@@ -161,7 +161,8 @@ apply (value:>1000000||name:"Clue scroll (master)"||name:"Clue geode (master)")
 }
 
 // Unique Highlights Tier
-apply (name:"Ensouled *"||name:"Long Bone"||name:"* half of key"||name:"Clue scroll (medium)"||name:"Clue scroll (easy)"||name:"Clue geode (easy)"||name:"Clue geode (medium)")
+apply (name:"Ensouled *"||name:"Long Bone"||name:"* half of key"||name:"Clue scroll (medium)"||name:"Clue scroll (easy)"||name:"Clue geode (easy)"||name:"Clue geode (medium)"
+||name:"Mark of grace")
 {
   icon = File("i_2_g.png");
   sound = "rar_2.wav";
@@ -215,14 +216,21 @@ apply (name:"Dark Totem *"||name:"Ancient Shard"||name:"Curved Bone"||name:"Clue
 // Larges
 // -------------------------------------------------------------------------
 
-// Copper
-apply (name:"Copper *") {
-  icon = File("i_4_e.png");
+// Pale large
+// Opal, Pearl, teak maho, other light woods
+apply (name:"Opal *"||name:"Pearl *"||name:"Ring of pursuit"||name:"Dodgy necklace"||name:"Expeditious bracelet"||name:"Amulet of bounty"
+||name:"Teak *"||name:"Mahogany *"||name:"White logs"||name:"Blisterwood *"||name:"Juniper *"||name:"Waxwood *") {
+  icon = File("i_4_a.png");
 }
 
-// Bronze
-apply (name:"Bronze *") {
+// Willow, Maple, Yew, Achey, Bruma, Windswept, bronze
+apply (name:"Willow *"||name:"Maple *"||name:"Yew *"||name:"Achey *"||name:"Bruma *"||name:"Deadwood *"||name:"Windswept *"||name:"Bronze *") {
   icon = File("i_4_b.png");
+}
+
+// Onyx
+apply (name:"Onyx *"||name:"Black chinchompa"||name:"Regen bracelet"||name:"Berserker necklace"||name:"Ring of stone"||name:"Amulet of fury"||name:"Amulet of blood fury"||name:"Black d'hide *") {
+  icon = File("i_4_c.png");
 }
 
 // Iron
@@ -230,46 +238,61 @@ apply (name:"Iron *"||name:"Broad bolts"||name:"Chinchompa") {
   icon = File("i_4_d.png");
 }
 
-// Steel
-apply (name:"Steel *") {
+// Copper Large
+// Oak, Logs, Pyew, Arctic Pine, Scrapey tree, copper
+apply (name:"Logs"||name:"Logs and kindling"||name:"Pyre logs"||name:"Oak *"||name:"Arctic pine *"||name:"Scrapey tree *"||name:"Copper *") {
+  icon = File("i_4_e.png");
+}
+
+// Silver large
+// Steel, silver, diamond
+apply (name:"Silver *"||name:"Steel *"||name:"Diamond *"||name:"Ring of life"||name:"Phoenix necklace"||name:"Abyssal bracelet"||name:"Amulet of power") {
   icon = File("i_4_f.png");
 }
 
-// Silver
-apply (name:"Silver *") {
-  icon = File("i_4_f.png");
-}
-
-// Gold
-apply (name:"Gold *"||name:"Atlatl dart") {
+// Zenyte, gold, atlatl darts
+apply (name:"Uncut zenyte"||name:"Zenyte *"||name:"Amulet of torture"||name:"Tormented bracelet"||name:"Necklace of anguish"||name:"Ring of suffering"||
+name:"Gold *"||name:"Atlatl dart") {
   icon = File("i_4_g.png");
 }
 
-// Mithril
-apply (name:"Mithril *") {
-  icon = File("i_4_n.png");
+// Red large
+// Ruby. red logs, red dhide
+apply (name:"Ruby *"||name:"Ring of forging"||name:"Digsite pendant"||name:"Inoculation bracelet"||name:"Amulet of strength"||name:"Red logs"||name:"Red d'hide *") {
+  icon = File("i_4_h.png");
 }
 
-// Adamantite
-apply (name:"Adamant *"||name:"Adamantite *") {
-  icon = File("i_4_k.png");
+// Dragon
+apply (name:"Dragon *"||name:"Red chinchompa") {
+  icon = File("i_4_i.png");
 }
 
-// Runite
-apply (name:"Rune *"||name:"Runite *") {
-  icon = File("i_4_n.png");
+// Redwood
+apply (name:"Redwood *"||name:"Red mahogany *") {
+  icon = File("i_4_j.png");
 }
 
-// -------------------------------------------------------------------------
-
-// Opal, Pearl
-apply (name:"Opal *"||name:"Pearl *"||name:"Ring of pursuit"||name:"Dodgy necklace"||name:"Expeditious bracelet"||name:"Amulet of bounty") {
-  icon = File("i_4_a.png");
-}
-
+// Green large
 // Jade
-apply (name:"Jade *"||name:"Ogre arrows"||name:"Ring of returning"||name:"Necklace of passage"||name:"Flamtaer bracelet"||name:"Amulet of chemistry") {
+apply (name:"Jade *"||name:"Ogre arrows"||name:"Ring of returning"||name:"Necklace of passage"||name:"Flamtaer bracelet"||name:"Amulet of chemistry"
+||name:"Adamant *"||name:"Adamantite *") {
   icon = File("i_4_k.png");
+}
+
+// Emerald
+apply (name:"Emerald *"||name:"Ring of dueling"||name:"Binding necklace"||name:"Castle wars bracelet"||name:"Amulet of defence"||name:"Amulet of nature"||name:"Green d'hide *"||name:"Green logs") {
+  icon = File("i_4_l.png");
+}
+
+// Mithril, blue d'hide, runite, sapphire, magic wood
+apply (name:"Mithril *"||name:"Blue d'hide *"||name:"Scaly blue dragonhide"||name:"Rune *"||name:"Runite *"||name:"Sapphire *"||name:"Ice arrows"||
+name:"Ring of recoil"||name:"Games necklace"||name:"Bracelet of clay"||name:"Amulet of magic"||name:"Magic *"||name:"Blue logs"||name:"Dream *") {
+  icon = File("i_4_n.png");
+}
+
+// Dragonstone
+apply (name:"Dragonstone *"||name:"Amulet of glory"||name:"Ring of wealth"||name:"Skills necklace"||name:"Combat bracelet"||name:"Purple logs") {
+  icon = File("i_4_o.png");
 }
 
 // Red topaz
@@ -277,53 +300,23 @@ apply (name:"Red topaz *"||name:"Efaritay's aid"||name:"Necklace of faith"||name
   icon = File("i_4_p.png");
 }
 
-// Sapphire
-apply (name:"Sapphire *"||name:"Ice arrows"||name:"Ring of recoil"||name:"Games necklace"||name:"Bracelet of clay"||name:"Amulet of magic") {
-  icon = File("i_4_n.png");
-}
-
-// Emerald
-apply (name:"Emerald *"||name:"Ring of dueling"||name:"Binding necklace"||name:"Castle wars bracelet"||name:"Amulet of defence"||name:"Amulet of nature") {
-  icon = File("i_4_l.png");
-}
-
-// Ruby
-apply (name:"Ruby *"||name:"Ring of forging"||name:"Digsite pendant"||name:"Inoculation bracelet"||name:"Amulet of strength") {
-  icon = File("i_4_h.png");
-}
-
-// Diamond
-apply (name:"Diamond *"||name:"Ring of life"||name:"Phoenix necklace"||name:"Abyssal bracelet"||name:"Amulet of power") {
-  icon = File("i_4_f.png");
-}
-
-// Dragonstone
-apply (name:"Dragonstone *"||name:"Amulet of glory"||name:"Ring of wealth"||name:"Skills necklace"||name:"Combat bracelet") {
-  icon = File("i_4_o.png");
-}
-
-// Onyx
-apply (name:"Onyx *"||name:"Black chinchompa"||name:"Regen bracelet"||name:"Berserker necklace"||name:"Ring of stone"||name:"Amulet of fury"||name:"Amulet of blood fury") {
-  icon = File("i_4_c.png");
-}
-
-// Zenyte
-apply (name:"Uncut zenyte"||name:"Zenyte *"||name:"Amulet of torture"||name:"Tormented bracelet"||name:"Necklace of anguish"||name:"Ring of suffering") {
-  icon = File("i_4_g.png");
-}
-
 // -------------------------------------------------------------------------
 // Smalls
 // -------------------------------------------------------------------------
 
-// Copper
-apply (name:"Copper ore") {
-  icon = File("i_4_e_s.png");
+// Teak, Mahogany, opal, pearl
+apply (name:"Teak logs"||name:"Mahogany logs"||name:"Opal amulet (u)"||name:"Opal bolt tips"||name:"Pearl bolt tips") {
+  icon = File("i_4_a_s.png");
 }
 
 // Bronze secondaries
-apply (name:"Bronze arrowtips"||name:"Bronze bolts (unf)"||name:"Bronze javelin heads") {
+apply (name:"Bronze arrowtips"||name:"Bronze bolts (unf)"||name:"Bronze javelin heads"||name:"Willow logs"||name:"Maple logs"||name:"Yew logs") {
   icon = File("i_4_b_s.png");
+}
+
+// Onyx, Coal
+apply (name:"Onyx amulet (u)"||name:"Onyx bolt tips"||name:"Coal"||name:"Black dragonhide"||name:"Lava scale"||name:"Black dragon leather") {
+  icon = File("i_4_c_s.png");
 }
 
 // Iron
@@ -331,160 +324,25 @@ apply (name:"Iron ore"||name:"Iron arrowtips"||name:"Iron bolts (unf)"||name:"Ir
   icon = File("i_4_d_s.png");
 }
 
-// Tin, Silver
-apply (name:"Tin ore"||name:"Silver ore"||name:"Silver bolts (unf)"||name:"Steel arrowtips"||name:"Steel bolts (unf)"||name:"Steel javelin heads") {
-  icon = File("i_4_f_s.png");
-}
-
-// Gold
-apply (name:"Gold ore") {
-  icon = File("i_4_g_s.png");
-}
-
-// Mithril
-apply (name:"Mithril ore"||name:"Mithril arrowtips"||name:"Mithril bolts (unf)"||name:"Mithril javelin heads") {
-  icon = File("i_4_n_s.png");
-}
-
-// Adamantite ore
-apply (name:"Adamantite ore"||name:"Adamant arrowtips"||name:"Adamant bolts(unf)"||name:"Adamant javelin heads") {
-  icon = File("i_4_k_s.png");
-}
-
-// Opal, Pearl
-apply (name:"Opal amulet (u)"||name:"Opal bolt tips"||name:"Pearl bolt tips") {
-  icon = File("i_4_a_s.png");
-}
-
-// Jade
-apply (name:"Jade amulet (u)"||name:"Jade bolt tips"||name:"Wolfbone arrowtips") {
-  icon = File("i_4_k_s.png");
-}
-
-// Red topaz
-apply (name:"Topaz bolt tips") {
-  icon = File("i_4_p_s.png");
-}
-
-// Sapphire, blue dragons smalls, runite smalls
-apply (name:"Sapphire amulet (u)"||name:"Sapphire bolt tips"||name:"Blue dragon scale"||name:"Blurite bolts (unf)"||name:"Blue dragonhide"||name:"Runite ore"
-||name:"Rune arrowtips"||name:"Rune javelin heads"||name:"Rune dart tip"||name:"Runite bolts (unf)") {
-  icon = File("i_4_n_s.png");
-}
-
-// Emerald
-apply (name:"Emerald amulet (u)"||name:"Emerald bolt tips") {
-  icon = File("i_4_l_s.png");
-}
-
-// Ruby
-apply (name:"Ruby amulet (u)"||name:"Ruby bolt tips") {
-  icon = File("i_4_h_s.png");
-}
-
-// Diamond
-apply (name:"Diamond amulet (u)"||name:"Diamond bolt tips") {
-  icon = File("i_4_f_s.png");
-}
-
-// Dragonstone
-apply (name:"Dragonstone amulet (u)"||name:"Dragonstone bolt tips") {
-  icon = File("i_4_o_s.png");
-}
-
-// Onyx, Coal
-apply (name:"Onyx amulet (u)"||name:"Onyx bolt tips"||name:"Coal") {
-  icon = File("i_4_c_s.png");
-}
-
-// Amethyst
-apply (name:"Amethyst ore"||name:"Amethyst bolt tips"||name:"Amethyst arrowtips"||name:"Amethyst javelin heads"||name:"Amethyst dart tips") {
-  icon = File("i_4_o_s.png");
-}
-
-// Zenyte
-apply (name:"Zenyte amulet (u)"||name:"Zenyte shard") {
-  icon = File("i_4_g_s.png");
-}
-
-// -------------------------------------------------------------------------
-// Common unprocessed logs -> small, planks and weapons large
-// -------------------------------------------------------------------------
-
-// Teak, Mahogany, White, Blisterwood, Juniper, Waxwood
-apply (name:"Teak *"||name:"Mahogany *"||name:"White logs"||name:"Blisterwood *"||name:"Juniper *"||name:"Waxwood *") {
-  icon = File("i_4_a.png");
-}
-
-// Oak, Logs, Pyew, Arctic Pine, Scrapey tree
-apply (name:"Logs"||name:"Logs and kindling"||name:"Pyre logs"||name:"Oak *"||name:"Arctic pine *"||name:"Scrapey tree *") {
-  icon = File("i_4_e.png");
-}
-
-// Willow, Maple, Yew, Achey, Bruma, Windswept
-apply (name:"Willow *"||name:"Maple *"||name:"Yew *"||name:"Achey *"||name:"Bruma *"||name:"Deadwood *"||name:"Windswept *") {
-  icon = File("i_4_b.png");
-}
-
-// Magic Blue logs, Dream
-apply (name:"Magic *"||name:"Blue logs"||name:"Dream *") {
-  icon = File("i_4_n.png");
-}
-
-// Redwood
-apply (name:"Redwood *"||name:"Red mahogany *") {
-  icon = File("i_2_j.png");
-}
-
-// Green logs
-apply (name:"Green logs") {
-  icon = File("i_4_l.png");
-}
-
-// Purple logs
-apply (name:"Purple logs") {
-  icon = File("i_4_o.png");
-}
-
-// Red logs
-apply (name:"Red logs") {
-  icon = File("i_4_h.png");
-}
-
-// -------------------------------------------------------------------------
-// Smalls
-// -------------------------------------------------------------------------
-
-// Teak, Mahogany
-apply (name:"Teak *"||name:"Mahogany *") {
-  icon = File("i_4_a_s.png");
-}
-
-// Oak, Logs
-apply (name:"Logs"||name:"Oak *") {
+// Copper, logs, oak
+apply (name:"Copper ore"||name:"Logs"||name:"Oak logs") {
   icon = File("i_4_e_s.png");
 }
 
-// Willow, Maple, Yew
-apply (name:"Willow *"||name:"Maple *"||name:"Yew *") {
-  icon = File("i_4_b_s.png");
+// Tin, Silver, diamond
+apply (name:"Tin ore"||name:"Silver ore"||name:"Silver bolts (unf)"||name:"Steel arrowtips"||name:"Steel bolts (unf)"||name:"Steel javelin heads"||name:"Diamond amulet (u)"||name:"Diamond bolt tips") {
+  icon = File("i_4_f_s.png");
 }
 
-// Magic
-apply (name:"Magic logs") {
-  icon = File("i_4_n_s.png");
+// Gold, zenyte
+apply (name:"Gold ore"||name:"Zenyte amulet (u)"||name:"Zenyte shard") {
+  icon = File("i_4_g_s.png");
 }
 
-// Redwood
-apply (name:"Redwood logs") {
-  icon = File("i_2_j_s.png");
-}
-
-// -------------------------------------------------------------------------
-
-// Dragon
-apply (name:"Dragon *"||name:"Red chinchompa") {
-  icon = File("i_4_i.png");
+// Red small
+// Ruby, red dragonhide
+apply (name:"Ruby amulet (u)"||name:"Ruby bolt tips"||name:"Red dragonhide"||name:"Red dragon leather") {
+  icon = File("i_4_h_s.png");
 }
 
 // Dragon smalls
@@ -492,47 +350,43 @@ apply (name:"Dragon arrowtips"||name:"Dragon dart tip"||name:"Dragon javelin hea
   icon = File("i_4_i_s.png");
 }
 
-// Red d'hide
-apply (name:"Red d'hide *") {
-  icon = File("i_4_h.png");
+// Redwood
+apply (name:"Redwood logs") {
+  icon = File("i_4_j_s.png");
 }
 
-// Red d'hide smalls
-apply (name:"Red dragonhide") {
-  icon = File("i_4_h_s.png");
+// Adamantite ore, jade, wolfbane
+apply (name:"Adamantite ore"||name:"Adamant arrowtips"||name:"Adamant bolts(unf)"||name:"Adamant javelin heads"||name:"Jade amulet (u)"||name:"Jade bolt tips"||name:"Wolfbone arrowtips") {
+  icon = File("i_4_k_s.png");
 }
 
-// Blue d'hide
-apply (name:"Blue d'hide *"||name:"Scaly blue dragonhide") {
-  icon = File("i_4_n.png");
-}
-
-// Green d'hide
-apply (name:"Green d'hide *") {
-  icon = File("i_4_l.png");
-}
-
-// Green d'hide smalls
-apply (name:"Green dragonhide") {
+// Green small
+// Emerald, green dragonhide
+apply (name:"Emerald amulet (u)"||name:"Emerald bolt tips"||name:"Green dragonhide"||name:"Green dragon leather") {
   icon = File("i_4_l_s.png");
 }
 
-// Black d'hide
-apply (name:"Black d'hide *"||name:"Black dragonhide") {
-  icon = File("i_4_c.png");
+// Blue Small
+// Sapphire, blue dragons smalls, runite smalls, magic logs, mythril
+apply (name:"Sapphire amulet (u)"||name:"Sapphire bolt tips"||name:"Blue dragon scale"||name:"Blurite bolts (unf)"||name:"Blue dragonhide"||name:"Runite ore"
+||name:"Rune arrowtips"||name:"Rune javelin heads"||name:"Rune dart tip"||name:"Runite bolts (unf)"||name:"Magic logs"||name:"Mithril ore"||name:"Mithril arrowtips"
+||name:"Mithril bolts (unf)"||name:"Mithril javelin heads"||name:"Blue dragon leather") {
+  icon = File("i_4_n_s.png");
 }
 
-// Black d'hide smalls
-apply (name:"Black dragonhide") {
-  icon = File("i_4_c_s.png");
+// Dragonstone, amethyst
+apply (name:"Dragonstone amulet (u)"||name:"Dragonstone bolt tips"||name:"Amethyst ore"||name:"Amethyst bolt tips"||name:"Amethyst arrowtips"||name:"Amethyst javelin heads"||name:"Amethyst dart tips") {
+  icon = File("i_4_o_s.png");
 }
 
-// Lava scale
-apply (name:"Lava scale") {
-  icon = File("i_4_c_s.png");
+// Magenta small
+// Red topaz
+apply (name:"Topaz bolt tips") {
+  icon = File("i_4_p_s.png");
 }
 
 // -------------------------------------------------------------------------
+// Staff clause
 
 // Air Staff
 apply (name:"Staff of air"||name:"Air battlestaff"||name:"Mystic air staff") {
@@ -575,6 +429,8 @@ apply (name:"Mystic mist staff"||name:"Mist battlestaff") {
 }
 
 // -------------------------------------------------------------------------
+
+// Gods and boss clause
 
 // Guthix
 apply (name:"Guthix*"||name:"Book of Balance"||name:"Peaceful blessing"||name:"Rune scimitar(Guthix)"||name:"Staff of balance"||name:"Void Knight*"||name:"Void seal") {
@@ -976,7 +832,7 @@ name:"Carrot sword"||name:"'24-carat' sword"||name:"Haunted wine bottle"||name:"
 name:"Giant boulder"||name:"Cursed banana"||name:"Love crossbow"||name:"Crier bell"||name:"Gilded spade"||name:"Large spade"||name:"Clueless scroll"||name:"Red flowers"||name:"Blue flowers"||name:"Yellow flowers"||name:"Purple flowers"||name:"Orange flowers"||
 name:"Mixed flowers"||name:"Assorted flowers"||name:"Black flowers"||name:"White flowers"||name:"Twisted adamant trophy"||name:"Twisted rune trophy"||name:"Twisted dragon trophy"||name:"Trailblazer adamant trophy"||name:"Trailblazer rune trophy"||name:"Trailblazer dragon trophy"||
 name:"Trailblazer reloaded adamant trophy"||name:"Trailblazer reloaded rune trophy"||name:"Trailblazer reloaded dragon trophy"||name:"Raging echoes adamant trophy"||name:"Raging echoes rune trophy"||name:"Raging echoes dragon trophy"||name:"Bronze speedrun trophy"||
-name:"Silver speedrun trophy"||name:"Gold speedrun trophy"||name:"Platinum speedrun trophy"||name:"Diamond speedrun trophy"||name:"Cursed goblin hammer"||name:"Golden tench"||name:"Mouse toy"||name:"Stale baguette"||name:"Giant stopwatch"||name:"Mystic cards") {
+name:"Silver speedrun trophy"||name:"Gold speedrun trophy"||name:"Platinum speedrun trophy"||name:"Diamond speedrun trophy"||name:"Cursed goblin hammer"||name:"Golden tench"||name:"Mouse toy"||name:"Stale baguette"||name:"Giant stopwatch"||name:"Mystic cards"||name:"Purple sweets") {
   icon = File("i_10_fun.png");
 }
 
