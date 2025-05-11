@@ -505,6 +505,11 @@ apply (name:"Mask of ranul"||name:"Tome of the moon"||name:"Helmet of the moon")
   icon = File("i_6_ranul.png");
 }
 
+// Zulrah
+apply (name:"Tanzanite fang"||name:"Magic fang"||name:"Serpentine visage"||name:"Tanzanite mutagen"||name:"Magma mutagen") {
+  icon = File("i_6_zulrah.png");
+}
+
 // -------------------------------------------------------------------------
 
 // Seeds
