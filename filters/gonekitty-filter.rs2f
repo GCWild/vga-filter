@@ -827,6 +827,9 @@ apply (name:"Steam rune") {
 apply (name:"Lava rune") {
   icon = File("i_9_v.png");
 }
+apply (name:"Aether rune") {
+  icon = File("i_9_w.png");
+}
 
 // -------------------------------------------------------------------------
 
