@@ -753,7 +753,7 @@ apply (name:"Stamina potion*"||name:"Stamina mix*") {
 
 // Rune
 apply (name:"Rune essence"||name:"Pure essence") {
-  icon = File("i_1_f.png");
+  icon = File("i_9_x.png");
 }
 
 // Elemental Runes
