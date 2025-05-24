@@ -44,7 +44,7 @@ apply (value:>250)
   fontType = FONTTYPE_NORMAL;
 }
 
-// Magic Item
+// Low value Item
 apply (value:>500)
 {
   menuTextColor = "ff8888ff";
@@ -57,7 +57,7 @@ apply (value:>500)
   fontType = FONTTYPE_NORMAL;
 }
 
-// Rare Item
+// Medium low value Item
 apply (value:>1500)
 {
   menuTextColor = "ffffff77";
@@ -70,7 +70,7 @@ apply (value:>1500)
   fontType = FONTTYPE_NORMAL;
 }
 
-// Transmute Orb
+// High Low value
 apply (value:>4000)
 {
   icon = File("i_1_d.png");
@@ -85,7 +85,7 @@ apply (value:>4000)
   fontType = FONTTYPE_LARGER;
 }
 
-// Chaos Orb
+// Moderate value
 apply (value:>10000)
 {
   icon = File("i_1_g.png");
@@ -100,7 +100,7 @@ apply (value:>10000)
   fontType = FONTTYPE_LARGER;
 }
 
-// Annul
+// High value
 apply (value:>35000)
 {
   icon = File("i_1_i.png");
@@ -115,7 +115,7 @@ apply (value:>35000)
   fontType = FONTTYPE_LARGER;
 }
 
-// Exalt
+// Higher Value
 apply (value:>100000)
 {
   icon = File("i_2_e.png");
@@ -145,7 +145,7 @@ apply (value:>500000)
   fontType = FONTTYPE_LARGER;
 }
 
-// Divine Orb
+// Extreme rarity
 apply (value:>1000000||name:"Clue scroll (master)"||name:"Clue geode (master)")
 {
   icon = File("i_2_i.png");
