@@ -11,9 +11,15 @@ Some are deliberately left empty to avoid clutter.
 Modify to your liking!
 Just don't redistribute the icons without attribution - gonekittywild.
 
+
 # Installation
 
 Just drag and drop the icons/ and filters/ folders into your .runelite/loot-filters/ folder.
+
+The filter is configured to use .wav sounds. It expects these sounds to be named 'rar_0.wav'-'rar_6.wav'.
+The intention is that the higher the number, the rarer the item that dropped.
+I cannot include these sounds here, but you may freely substitute your own sounds to make use of this functionality
+if you make a sounds/ folder in your loot-filters/ folder and add files with these names.
 
 
 # Examples
