@@ -1,6 +1,5 @@
-meta { name = "wobbly-filter"; }
-
-// https://github.com/riktenx/loot-filters/blob/main/guides/loot-filters.md
+meta { name = "wobbly-filter";
+	   description = "A filter";}
 
 // Items to hide
 HIDE("Bones")
