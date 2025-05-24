@@ -505,7 +505,7 @@ apply (name:"Mask of ranul"||name:"Tome of the moon"||name:"Helmet of the moon")
 }
 
 // Zulrah
-apply (name:"Tanzanite fang"||name:"Magic fang"||name:"Serpentine visage"||name:"Tanzanite mutagen"||name:"Magma mutagen") {
+apply (name:"Tanzanite fang"||name:"Magic fang"||name:"Serpentine visage"||name:"Tanzanite mutagen"||name:"Magma mutagen"||name:"Zulrah's scales") {
   icon = File("i_6_zulrah.png");
 }
 
