@@ -23,8 +23,7 @@ if you make a sounds/ folder in your loot-filters/ folder and add files with the
 
 
 # Examples
-
-![Loot3](https://github.com/user-attachments/assets/d6beceb6-c1cd-406b-8804-712d4e83eabf)
-![Loot2](https://github.com/user-attachments/assets/12332881-e777-43f4-97f2-896b1d39ee55)
-![Loot1](https://github.com/user-attachments/assets/3752b642-52b0-4b8d-8bf7-3a96a92214bf)
-![Loot4](https://github.com/user-attachments/assets/d5807e49-af0f-4569-8bb7-cdf9a43cd695)
+![Loot_scr_D](https://github.com/user-attachments/assets/6a4cf306-68e6-484a-a089-3c0ea63820ad)
+![Loot_scr_C](https://github.com/user-attachments/assets/1756fda7-75e8-455c-b4fe-a73aed0e4e01)
+![Loot_scr_B](https://github.com/user-attachments/assets/38247eed-4d87-4b3a-bcb7-437ecdec0a47)
+![Loot_scr_A](https://github.com/user-attachments/assets/e7d13018-9237-4e9b-82ce-863ada89bfab)
