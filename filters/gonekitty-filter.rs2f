@@ -309,7 +309,7 @@ apply (name:"Teak logs"||name:"Mahogany logs"||name:"Opal amulet (u)"||name:"Opa
 }
 
 // Bronze secondaries
-apply (name:"Bronze arrowtips"||name:"Bronze bolts (unf)"||name:"Bronze javelin heads"||name:"Willow logs"||name:"Maple logs"||name:"Yew logs") {
+apply (name:"Bronze arrowtips"||name:"Bronze bolts (unf)"||name:"Bronze javelin heads"||name:"Willow logs"||name:"Maple logs"||name:"Yew logs"||name:"Willow * (u)"||name:"Yew * (u)"||name:"Maple * (u)") {
   icon = File("i_4_b_s.png");
 }
 
@@ -324,7 +324,7 @@ apply (name:"Iron ore"||name:"Iron arrowtips"||name:"Iron bolts (unf)"||name:"Ir
 }
 
 // Copper, logs, oak
-apply (name:"Copper ore"||name:"Logs"||name:"Oak logs") {
+apply (name:"Copper ore"||name:"Logs"||name:"Oak logs"||name:" Oak * (u)"||name:"Unstrung comp bow"||name:"Longbow (u)"||name:"Shortbow (u)") {
   icon = File("i_4_e_s.png");
 }
 
@@ -369,7 +369,7 @@ apply (name:"Emerald amulet (u)"||name:"Emerald bolt tips"||name:"Green dragonhi
 // Sapphire, blue dragons smalls, runite smalls, magic logs, mythril
 apply (name:"Sapphire amulet (u)"||name:"Sapphire bolt tips"||name:"Blue dragon scale"||name:"Blurite bolts (unf)"||name:"Blue dragonhide"||name:"Runite ore"
 ||name:"Rune arrowtips"||name:"Rune javelin heads"||name:"Rune dart tip"||name:"Runite bolts (unf)"||name:"Magic logs"||name:"Mithril ore"||name:"Mithril arrowtips"
-||name:"Mithril bolts (unf)"||name:"Mithril javelin heads"||name:"Blue dragon leather") {
+||name:"Mithril bolts (unf)"||name:"Mithril javelin heads"||name:"Blue dragon leather"||name:"Magic * (u)") {
   icon = File("i_4_n_s.png");
 }
 
@@ -393,17 +393,17 @@ apply (name:"Staff of air"||name:"Air battlestaff"||name:"Mystic air staff") {
 }
 
 // Water Staff
-apply (name:"Staff of water"||name:"Water battlestaff"||name:"Mystic water staff") {
+apply (name:"Staff of water"||name:"Water battlestaff"||name:"Mystic water staff"||name:"Tome of water") {
   icon = File("i_5_n.png");
 }
 
 // Earth Staff
-apply (name:"Staff of earth"||name:"Earth battlestaff"||name:"Mystic earth staff") {
+apply (name:"Staff of earth"||name:"Earth battlestaff"||name:"Mystic earth staff"||name:"Tome of earth") {
   icon = File("i_5_l.png");
 }
 
 // Fire Staff
-apply (name:"Staff of fire"||name:"Fire battlestaff"||name:"Mystic fire staff") {
+apply (name:"Staff of fire"||name:"Fire battlestaff"||name:"Mystic fire staff"||name:"Tome of fire") {
   icon = File("i_5_i.png");
 }
 
@@ -432,19 +432,19 @@ apply (name:"Mystic mist staff"||name:"Mist battlestaff") {
 // Gods and boss clause
 
 // Guthix
-apply (name:"Guthix*"||name:"Book of Balance"||name:"Peaceful blessing"||name:"Rune scimitar(Guthix)"||name:"Staff of balance"||name:"Void Knight*"||name:"Void seal") {
+apply (name:"Guthix*"||name:"Book of Balance"||name:"Peaceful blessing"||name:"Rune scimitar(Guthix)"||name:"Staff of balance"||name:"Void Knight*"||name:"Void seal"||name:"Imbued guthix cape") {
   icon = File("i_6_guthix.png");
 }
 
 // Saradomin
 apply (name:"Saradomin*"||name:"Holy book"||name:"Holy blessing"||name:"Holy symbol"||name:"Monk's robes"||name:"Rune scimitar (Saradomin)"||name:"Staff of light"||name:"Justiciar armour"||name:"Holy wraps"||name:"Holy sandals"||name:"Devout boots"||name:"Ring of endurance"||
-name:"Hallowed *"||name:"Holy scythe of vitur"||name:"Holy ghrazi rapier"||name:"Holy sanguinesti staff") {
+name:"Hallowed *"||name:"Holy scythe of vitur"||name:"Holy ghrazi rapier"||name:"Holy sanguinesti staff"||name:"Imbued saradomin cape") {
   icon = File("i_6_saradomin.png");
 }
 
 // Zamorak
 apply (name:"Zamorak*"||name:"Unholy *"||name:"Elder chaos*"||name:"Dagon'hai robes"||name:"Rune scimitar (Zamorak)"||name:"Inquisitor's armour"||name:"Staff of the dead"||name:"Thammaron's sceptre"||name:"Viggora's chainmace"||name:"Dragon hunter lance"||
-name:"Elite black armour"||name:"Dark Squall robes") {
+name:"Elite black armour"||name:"Dark Squall robes"||name:"Imbued zamorak cape") {
   icon = File("i_6_zamorak.png");
 }
 
@@ -574,8 +574,8 @@ apply (name:"Uncut jade"||name:"Jade") {
 }
 
 // Red Topaz
-apply (name:"Uncut jade"||name:"Jade") {
-  icon = File("i_7_j.png");
+apply (name:"Uncut red topaz"||name:"Red topaz") {
+  icon = File("i_7_p.png");
 }
 
 // Dragonstone
