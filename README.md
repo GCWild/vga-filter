@@ -1,4 +1,4 @@
-# wobbly-filter
+# VGA-filter
 
 Filter for use with the [Loot Filters](https://runelite.net/plugin-hub/show/loot-filters) plugin for Old School Runescape.
 
