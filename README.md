@@ -8,10 +8,6 @@ Primarily for ironmen that never want to hide any drops - only regular bones are
 Most boss drops and notable items have bespoke icons with appropriate colours added to them.
 Some are deliberately left empty to avoid clutter.
 
-Modify to your liking!
-Just don't redistribute the icons without attribution - gonekittywild.
-
-
 # Installation
 
 Just drag and drop the icons/ and filters/ folders into your .runelite/loot-filters/ folder.
