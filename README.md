@@ -25,3 +25,9 @@ if you make a sounds/ folder in your loot-filters/ folder and add files with the
 ![Loot_scr_C](https://github.com/user-attachments/assets/1756fda7-75e8-455c-b4fe-a73aed0e4e01)
 ![Loot_scr_B](https://github.com/user-attachments/assets/38247eed-4d87-4b3a-bcb7-437ecdec0a47)
 ![Loot_scr_A](https://github.com/user-attachments/assets/e7d13018-9237-4e9b-82ce-863ada89bfab)
+
+# Additional visuals
+
+This resource pack works best when paired with my [resource pack](https://github.com/GCWild/pack-vgascape/tree/main), as the visuals for both were created in tandem.
+
+![2025-05-30_16-57-37](https://github.com/user-attachments/assets/27aa23c9-80db-44e2-8009-3afee9f2083d)
