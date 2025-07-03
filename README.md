@@ -31,3 +31,7 @@ if you make a sounds/ folder in your loot-filters/ folder and add files with the
 This resource pack works best when paired with my [resource pack](https://github.com/GCWild/pack-vgascape/tree/main), as the visuals for both were created in tandem.
 
 ![2025-05-30_16-57-37](https://github.com/user-attachments/assets/27aa23c9-80db-44e2-8009-3afee9f2083d)
+
+Oh, and here's a quick cursor I made for the pack as well. You can use Runelites 'Custom Cursor' plugin for this one - it's the correct size.
+
+![cursor](https://github.com/user-attachments/assets/f4646122-4148-4418-9e0a-78b577adfa33)
