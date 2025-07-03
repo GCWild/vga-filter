@@ -624,22 +624,22 @@ apply (name:"Coins"&&value:>19999) {
 // -------------------------------------------------------------------------
 
 // Treasure Clues
-apply (name:"Clue scroll (beginner)"||name:"Clue geode (beginner)") {
+apply (name:"Clue scroll (beginner)"||name:"Clue geode (beginner)"||name:"Scroll box (beginner)") {
   icon = File("i_6_treasure_a.png");
 }
-apply (name:"Clue scroll (easy)"||name:"Clue geode (easy)") {
+apply (name:"Clue scroll (easy)"||name:"Clue geode (easy)"||name:"Scroll box (easy)") {
   icon = File("i_6_treasure_b.png");
 }
-apply (name:"Clue scroll (medium)"||name:"Clue geode (medium)") {
+apply (name:"Clue scroll (medium)"||name:"Clue geode (medium)"||name:"Scroll box (medium)") {
   icon = File("i_6_treasure_c.png");
 }
-apply (name:"Clue scroll (hard)"||name:"Clue geode (hard)") {
+apply (name:"Clue scroll (hard)"||name:"Clue geode (hard)"||name:"Scroll box (hard)") {
   icon = File("i_6_treasure_d.png");
 }
-apply (name:"Clue scroll (elite)"||name:"Clue geode (elite)") {
+apply (name:"Clue scroll (elite)"||name:"Clue geode (elite)"||name:"Scroll box (elite)") {
   icon = File("i_6_treasure_e.png");
 }
-apply (name:"Clue scroll (master)"||name:"Clue geode (master)") {
+apply (name:"Clue scroll (master)"||name:"Clue geode (master)"||name:"Scroll box (master)") {
   icon = File("i_6_treasure_f.png");
 }
 
