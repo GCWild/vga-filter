@@ -160,8 +160,8 @@ apply (value:>1000000||name:"Clue scroll (master)"||name:"Clue geode (master)")
 }
 
 // Unique Highlights Tier
-apply (name:"Ensouled *"||name:"Long Bone"||name:"* half of key"||name:"Clue scroll (medium)"||name:"Clue scroll (easy)"||name:"Clue geode (easy)"||name:"Clue geode (medium)"
-||name:"Mark of grace")
+apply (name:"Ensouled *"||name:"Long Bone"||name:"* half of key"||name:"Clue scroll (medium)"||name:"Clue scroll (easy)"||name:"Clue geode (easy)"||name:"Clue geode (medium)||name:"Mossy key"||
+||name:"Giant key"||name:"Mark of grace")
 {
   icon = File("i_2_g.png");
   sound = "rar_2.wav";
