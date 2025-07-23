@@ -844,6 +844,21 @@ name:"Silver speedrun trophy"||name:"Gold speedrun trophy"||name:"Platinum speed
 
 // -------------------------------------------------------------------------
 
+// Ownership clause
+apply (ownership:2) {
+  icon = File("i_0.png");
+  menuTextColor = "ffa0a0a0";
+  textColor = "ffa0a0a0";
+  borderColor = "00000000";
+  backgroundColor = "00000000";
+  showLootbeam = false;
+  notify = false;
+  textAccent = 1;
+  fontType = FONTTYPE_NORMAL;
+}
+
+// -------------------------------------------------------------------------
+
 // Test
 /*
 apply (name:"Vampyre dust") {
