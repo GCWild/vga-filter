@@ -494,7 +494,7 @@ apply (name:"Holy symbol") {
 }
 
 // Ralos
-apply (name:"Dizana's quiver"||name:"Sunfire fanatic armour"||name:"Tonalztics of ralos"||name:"Tome of the sun") {
+apply (name:"Dizana's quiver"||name:"Sunfire fanatic armour"||name:"Tonalztics of ralos"||name:"Tome of the sun"||name:"Blessed bone *"||name:"Sun-kissed *") {
   icon = File("i_6_ralos.png");
 }
 
