@@ -160,7 +160,8 @@ apply (value:>1000000||name:"Clue scroll (master)"||name:"Clue geode (master)")
 }
 
 // Unique Highlights Tier
-apply (name:"Ensouled *"||name:"Long bone"||name:"* half of key"||name:"Clue scroll (medium)"||name:"Clue scroll (easy)"||name:"Clue geode (easy)"||name:"Clue geode (medium)"||name:"Mossy key"||name:"Giant key"||name:"Mark of grace")
+apply (name:"Ensouled *"||name:"Long bone"||name:"* half of key"||name:"Clue scroll (medium)"||name:"Clue scroll (easy)"||name:"Clue geode (easy)"||name:"Clue geode (medium)"||name:"Mossy key"||name:"Giant key"||
+       name:"Mark of grace"||name:"Scroll box *")
 {
   icon = File("i_2_g.png");
   sound = "rar_2.wav";
@@ -227,7 +228,7 @@ apply (name:"Willow *"||name:"Maple *"||name:"Yew *"||name:"Achey *"||name:"Brum
 }
 
 // Onyx
-apply (name:"Onyx *"||name:"Black chinchompa"||name:"Regen bracelet"||name:"Berserker necklace"||name:"Ring of stone"||name:"Amulet of fury"||name:"Amulet of blood fury"||name:"Black d'hide *") {
+apply (name:"Onyx *"||name:"Black chinchompa"||name:"Regen bracelet"||name:"Berserker necklace"||name:"Ring of stone"||name:"Amulet of fury"||name:"Amulet of blood fury"||name:"Black d'hide *"||name:"Obsidian *") {
   icon = File("i_4_c.png");
 }
 
@@ -464,7 +465,7 @@ name:"Ancient godsword"||name:"Zaryte crossbow"||name:"Venator bow"||name:"Ancie
 }
 
 // Seren
-apply (name:"Seren halo"||name:"Crystal *"||name:"Blade of saeldo*"||name:"Bow of faerdhine*") {
+apply (name:"Seren halo"||name:"Crystal *"||name:"Blade of saeldo*"||name:"Bow of faerdhine*"||name:"Eternal teleport crystal"||name:"Teleport crystal"||name:"Crystal teleport seed") {
   icon = File("i_6_seren.png");
 }
 
@@ -595,6 +596,7 @@ apply (name:"Uncut zenyte"||name:"Zenyte"||name:"Zenyte shard") {
 // -------------------------------------------------------------------------
 
 // Coins clause
+
 apply (name:"Coins") {
   icon = File("i_8_s.png");
 }
@@ -618,6 +620,20 @@ apply (name:"Coins"&&value:>9999) {
 }
 apply (name:"Coins"&&value:>19999) {
   icon = File("i_8_xll.png");
+}
+
+// -------------------------------------------------------------------------
+
+// Tokkul clause
+
+apply (name:"Tokkul") {
+  icon = File("i_13_a.png");
+}
+apply (name:"Tokkul"&&quantity:>9) {
+  icon = File("i_13_b.png");
+}
+apply (name:"Tokkul"&&quantity:>20) {
+  icon = File("i_13_c.png");
 }
 
 // -------------------------------------------------------------------------
@@ -831,6 +847,36 @@ apply (name:"Aether rune") {
 
 // -------------------------------------------------------------------------
 
+// Bones
+
+apply (name:"Bones"||name:"Big bones"||name:"Bat bones"||name:"Wolf bones"||name:"Monkey bones"||name:"Sheep bones"||name:"Shaikahan bones"||name:"Alan's bones") {
+  icon = File("i_12_a.png");
+}
+apply (name:"Dagannoth bones"||name:""||name:"Bleached bones"||name:"Babydragon bones"||name:"Chewed bones"||name:"Fayrg bones"||name:"Jogre bones"||name:"Mangled bones"||name:"Ourg bones"||name:"Raurg bones"||name:"Zogre bones") {
+  icon = File("i_12_b.png");
+}
+apply (name:"Dragon bones"||name:""||name:"Wyvern bones"||name:"Wyrmling bones"||name:"Wyrm bones"||name:"Lava dragon bones"||name:"Drake bones"||name:"Hydra bones") {
+  icon = File("i_12_c.png");
+}
+apply (name:"Blessed bone shards") {
+  icon = File("i_12_d.png");
+}
+apply (name:"Long bone") {
+  icon = File("i_12_e.png");
+}
+apply (name:"Curved bone") {
+  icon = File("i_12_f.png");
+}
+apply (name:"Sun-kissed bones"||name:"Blessed * bones") {
+  icon = File("i_12_g.png");
+}
+apply (name:"Superior dragon bones") {
+  icon = File("i_12_h.png");
+}
+// -------------------------------------------------------------------------
+
+// -------------------------------------------------------------------------
+
 // Fun weapons
 
 apply (name:"Trollweiss"||name:"Severed leg"||name:"Undead chicken (item)"||name:"Rubber chicken"||name:"Easter basket"||name:"Hunting knife"||name:"Birthday balloons"||name:"Hand fan"||name:"Fire mesh net"||name:"Prop sword"||name:"Eek"||name:"Candy cane"||
@@ -847,6 +893,7 @@ name:"Silver speedrun trophy"||name:"Gold speedrun trophy"||name:"Platinum speed
 // Ownership clause
 apply (ownership:2) {
   icon = File("i_0.png");
+  sound = "null.wav";
   menuTextColor = "ffa0a0a0";
   textColor = "ffa0a0a0";
   borderColor = "00000000";
