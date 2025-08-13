@@ -215,6 +215,11 @@ apply (name:"Dark Totem *"||name:"Ancient Shard"||name:"Curved Bone"||name:"Clue
 // Larges
 // -------------------------------------------------------------------------
 
+// Large black, circle (cannonball clause)
+apply (name:"Cannonball") {
+  icon = File("i_1_c.png");
+}
+
 // Pale large
 // Opal, Pearl, teak maho, other light woods
 apply (name:"Opal *"||name:"Pearl *"||name:"Ring of pursuit"||name:"Dodgy necklace"||name:"Expeditious bracelet"||name:"Amulet of bounty"
@@ -623,7 +628,7 @@ apply (name:"Coins"&&value:>19999) {
 }
 
 // -------------------------------------------------------------------------
-
+// Miscellaneous currencies
 // Tokkul clause
 
 apply (name:"Tokkul") {
@@ -634,6 +639,11 @@ apply (name:"Tokkul"&&quantity:>9) {
 }
 apply (name:"Tokkul"&&quantity:>20) {
   icon = File("i_13_c.png");
+}
+
+// Revenant Ether
+apply (name:"Revenant ether") {
+  icon = File("i_13_d.png");
 }
 
 // -------------------------------------------------------------------------
@@ -873,7 +883,6 @@ apply (name:"Sun-kissed bones"||name:"Blessed * bones") {
 apply (name:"Superior dragon bones") {
   icon = File("i_12_h.png");
 }
-// -------------------------------------------------------------------------
 
 // -------------------------------------------------------------------------
 
