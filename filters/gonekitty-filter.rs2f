@@ -176,7 +176,7 @@ apply (name:"Ensouled *"||name:"Long bone"||name:"* half of key"||name:"Clue scr
 }
 
 // Unique Higher Highlights Tier
-apply (name:"Dark Totem *"||name:"Ancient Shard"||name:"Curved Bone"||name:"Clue scroll (hard)"||name:"Clue scroll (elite)"||name:"Clue geode (hard)"||name:"Clue geode (elite)")
+apply (name:"Dark Totem *"||name:"Ancient Shard"||name:"Curved Bone"||name:"Clue scroll (hard)"||name:"Clue scroll (elite)"||name:"Clue geode (hard)"||name:"Clue geode (elite)"||name:"Shield * half")
 {
   icon = File("i_2_g.png");
   sound = "rar_4.wav";
@@ -898,6 +898,18 @@ name:"Silver speedrun trophy"||name:"Gold speedrun trophy"||name:"Platinum speed
 }
 
 // -------------------------------------------------------------------------
+// Boss drops
+apply (name:"") {
+  icon = File("i_13_a.png");
+}
+apply (name:"") {
+  icon = File("i_13_b.png");
+}
+apply (name:"Jar of *"||name:"* mutagen") {
+  icon = File("i_13_c.png");
+}
+
+// -------------------------------------------------------------------------
 
 // Ownership clause
 apply (ownership:2) {
@@ -917,7 +929,7 @@ apply (ownership:2) {
 
 // Test
 /*
-apply (name:"Vampyre dust") {
-  icon = File("i_11_a.png");
+apply (name:"Rune pickaxe") {
+  icon = File("i_14_a.png");
 }
 */
