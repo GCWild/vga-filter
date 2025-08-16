@@ -899,13 +899,13 @@ name:"Silver speedrun trophy"||name:"Gold speedrun trophy"||name:"Platinum speed
 
 // -------------------------------------------------------------------------
 // Boss drops
-apply (name:"") {
+apply (name:"Hueycoatl hide"||name:"Odium shard *"||name:"Malediction shard *"||name:"Skull of vet'ion"||name:"Steel ring"||name:"Tyrannical ring"||name:"Fangs of venenatis"||name:"Dossier"||name:"Forgotten lockbox") {
   icon = File("i_13_a.png");
 }
-apply (name:"") {
+apply (name:"Jar of *"||name:"* head"||name:"Kq head (tattered)"||name:"* sigil"||name:"Godsword shard *"||name:"Dragonbane necklace"||name:"Noxious *") {
   icon = File("i_13_b.png");
 }
-apply (name:"Jar of *"||name:"* mutagen") {
+apply (name:"* mutagen"||name:"Elysian sigil"||name:"Araxyte fang") {
   icon = File("i_13_c.png");
 }
 
