@@ -160,7 +160,7 @@ apply (value:>1000000||name:"Clue scroll (master)"||name:"Clue geode (master)")
 }
 
 // Unique Highlights Tier
-apply (name:"Ensouled *"||name:"Long bone"||name:"* half of key"||name:"Clue scroll (medium)"||name:"Clue scroll (easy)"||name:"Clue geode (easy)"||name:"Clue geode (medium)"||name:"Mossy key"||name:"Giant key"||
+apply (name:"Ensouled * head"||name:"Long bone"||name:"* half of key"||name:"Clue scroll (medium)"||name:"Clue scroll (easy)"||name:"Clue geode (easy)"||name:"Clue geode (medium)"||name:"Mossy key"||name:"Giant key"||
        name:"Mark of grace"||name:"Scroll box *")
 {
   icon = File("i_2_g.png");
@@ -900,13 +900,13 @@ name:"Silver speedrun trophy"||name:"Gold speedrun trophy"||name:"Platinum speed
 // -------------------------------------------------------------------------
 // Boss drops
 apply (name:"Hueycoatl hide"||name:"Odium shard *"||name:"Malediction shard *"||name:"Skull of vet'ion"||name:"Steel ring"||name:"Tyrannical ring"||name:"Fangs of venenatis"||name:"Dossier"||name:"Forgotten lockbox") {
-  icon = File("i_13_a.png");
+  icon = File("i_14_a.png");
 }
 apply (name:"Jar of *"||name:"* head"||name:"Kq head (tattered)"||name:"* sigil"||name:"Godsword shard *"||name:"Dragonbane necklace"||name:"Noxious *") {
-  icon = File("i_13_b.png");
+  icon = File("i_14_b.png");
 }
 apply (name:"* mutagen"||name:"Elysian sigil"||name:"Araxyte fang") {
-  icon = File("i_13_c.png");
+  icon = File("i_14_c.png");
 }
 
 // -------------------------------------------------------------------------
