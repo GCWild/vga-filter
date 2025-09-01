@@ -145,7 +145,7 @@ apply (value:>500000)
 }
 
 // Extreme rarity
-apply (value:>1000000||name:"Clue scroll (master)"||name:"Clue geode (master)")
+apply (value:>1000000||name:"* champion scroll")
 {
   icon = File("i_2_i.png");
   sound = "rar_5.wav";
@@ -160,8 +160,7 @@ apply (value:>1000000||name:"Clue scroll (master)"||name:"Clue geode (master)")
 }
 
 // Unique Highlights Tier
-apply (name:"Ensouled * head"||name:"Long bone"||name:"* half of key"||name:"Clue scroll (medium)"||name:"Clue scroll (easy)"||name:"Clue geode (easy)"||name:"Clue geode (medium)"||name:"Mossy key"||name:"Giant key"||
-       name:"Mark of grace"||name:"Scroll box *")
+apply (name:"Ensouled * head"||name:"Long bone"||name:"* half of key"||name:"Clue scroll (medium)"||name:"Clue scroll (easy)"||name:"Clue geode (easy)"||name:"Clue geode (medium)"||name:"Mossy key"||name:"Giant key"||name:"Scroll box *")
 {
   icon = File("i_2_g.png");
   sound = "rar_2.wav";
@@ -905,7 +904,7 @@ apply (name:"Hueycoatl hide"||name:"Odium shard *"||name:"Malediction shard *"||
 apply (name:"Jar of *"||name:"* head"||name:"Kq head (tattered)"||name:"* sigil"||name:"Godsword shard *"||name:"Dragonbane necklace"||name:"Noxious *") {
   icon = File("i_14_b.png");
 }
-apply (name:"* mutagen"||name:"Elysian sigil"||name:"Araxyte fang") {
+apply (name:"* mutagen"||name:"Elysian sigil"||name:"Araxyte fang"||name:"* champion scroll") {
   icon = File("i_14_c.png");
 }
 
