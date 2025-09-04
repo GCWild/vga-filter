@@ -145,7 +145,8 @@ apply (value:>500000)
 }
 
 // Extreme rarity
-apply (value:>1000000||name:"* champion scroll")
+apply (value:>1000000||name:"* champion scroll"||name:"Jar of *"||name:"* head"||name:"Kq head (tattered)"||name:"* sigil"||name:"Godsword shard *"||name:"Dragonbane necklace"||name:"Noxious *"||name:"* mutagen"
+||name:"Elysian sigil"||name:"Araxyte fang")
 {
   icon = File("i_2_i.png");
   sound = "rar_5.wav";
@@ -775,7 +776,8 @@ apply (name:"Stamina potion*"||name:"Stamina mix*") {
 // -------------------------------------------------------------------------
 
 // Rune
-apply (name:"Rune essence"||name:"Pure essence") {
+apply (name:"Rune essence"||name:"Pure essence"||name:"Mark of grace") {
+  sound = "null.wav";
   icon = File("i_9_x.png");
 }
 
@@ -899,12 +901,6 @@ name:"Silver speedrun trophy"||name:"Gold speedrun trophy"||name:"Platinum speed
 // -------------------------------------------------------------------------
 // Boss drops
 apply (name:"Hueycoatl hide"||name:"Odium shard *"||name:"Malediction shard *"||name:"Skull of vet'ion"||name:"Steel ring"||name:"Tyrannical ring"||name:"Fangs of venenatis"||name:"Dossier"||name:"Forgotten lockbox") {
-  icon = File("i_14_a.png");
-}
-apply (name:"Jar of *"||name:"* head"||name:"Kq head (tattered)"||name:"* sigil"||name:"Godsword shard *"||name:"Dragonbane necklace"||name:"Noxious *") {
-  icon = File("i_14_b.png");
-}
-apply (name:"* mutagen"||name:"Elysian sigil"||name:"Araxyte fang"||name:"* champion scroll") {
   icon = File("i_14_c.png");
 }
 
