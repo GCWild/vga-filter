@@ -72,7 +72,7 @@ apply (value:>1500)
 // High Low value
 apply (value:>4000)
 {
-  icon = File("i_1_d.png");
+  //icon = File("i_1_d.png");
   sound = "rar_0.wav";
   menuTextColor = "ffbcb287";
   textColor = "ffbcb287";
@@ -85,9 +85,9 @@ apply (value:>4000)
 }
 
 // Moderate value
-apply (value:>10000)
+apply (value:>10000||name:"Orange spice *")
 {
-  icon = File("i_1_g.png");
+  //icon = File("i_1_g.png");
   sound = "rar_0.wav";
   menuTextColor = "ffffcf84";
   textColor = "ffffcf84";
@@ -102,7 +102,7 @@ apply (value:>10000)
 // High value
 apply (value:>35000)
 {
-  icon = File("i_1_i.png");
+  //icon = File("i_1_i.png");
   sound = "rar_1.wav";
   menuTextColor = "ffff6400";
   textColor = "ffff6400";
@@ -704,7 +704,7 @@ apply (name:"Antidote+*"||name:"Anti-venom*"||name:"Agility potion*") {
 
 // Yellow, light
 apply (name:"Strength potion*"||name:"Strength mix*"||name:"Super defence*"||name:"Super def.*"||name:"Battlemage potion*"
-||name:"Divine battlemage potion*"||name:"Saradomin brew") {
+||name:"Divine battlemage potion*"||name:"Saradomin brew"||name:"Xeric's aid*"||name:"Nectar") {
   icon = File("i_11_g.png");
 }
 
@@ -759,7 +759,7 @@ apply (name:"Goading potion*"||name:"Bastion potion*"||name:"Divine bastion poti
 }
 
 // White
-apply (name:"Super strength*"||name:"Super str.*"||name:"Divine super strength*"||name:"Weapon poison(++)") {
+apply (name:"Super strength*"||name:"Super str.*"||name:"Divine super strength*"||name:"Weapon poison(++)"||name:"Ambrosia") {
   icon = File("i_11_r.png");
 }
 
@@ -883,6 +883,86 @@ apply (name:"Sun-kissed bones"||name:"Blessed * bones") {
 }
 apply (name:"Superior dragon bones") {
   icon = File("i_12_h.png");
+}
+
+// -------------------------------------------------------------------------
+
+// Food clause
+
+apply (name:"Shrimps"||name:"Herring"||name:"Mackerel"||name:"Lobster"||name:"Lava eel") {
+  icon = File("i_15_a.png");
+}
+apply (name:"Trout"||name:"Pike"||name:"Salmon"||name:"Bass") {
+  icon = File("i_15_b.png");
+}
+apply (name:"Tuna"||name:"Shark"||name:"Swordfish"||name:"Anglerfish"||name:"Blighted anglerfish") {
+  icon = File("i_15_c.png");
+}
+apply (name:"Monkfish"||name:"Blighted manta ray"||name:"Manta ray") {
+  icon = File("i_15_d.png");
+}
+apply (name:"Cooked karambwan"||name:"Blighted karambwan") {
+  icon = File("i_15_e.png");
+}
+apply (name:"Sea turtle") {
+  icon = File("i_15_f.png");
+}
+apply (name:"Dark crab"||name:"Fresh crab *"||name:"Crab claw"||name:"Crab helmet") {
+  icon = File("i_15_g.png");
+}
+apply (name:"Ixcoztic white"||name:"Guthix rest*"||name:"* ale"||name:"Beer"||name:"Chichilihui rosé"||name:"Moonlight mead") {
+  icon = File("i_15_h.png");
+}
+apply (name:"Jug of wine"||name:"Zamorakian wine"||name:"Half full wine jug"||name:"Bottle of wine") {
+  icon = File("i_15_i.png");
+}
+apply (name:"Wizard's mind bomb") {
+  icon = File("i_15_j.png");
+}
+apply (name:"Flour"||name:"Cabbages*"||name:"Cabbage"||name:"Onions*"||name:"Onion"||name:"Potatoes*"||name:"Potato") {
+  icon = File("i_15_k.png");
+}
+apply (name:"Potato with cheese"||name:"Potato with butter"||name:"Chilli potato"||name:"Egg potato"||name:"Mushroom potato"||name:"Tuna potato"||name:"Baked potato") {
+  icon = File("i_15_l.png");
+}
+apply (name:"Bread"||name:"* kebab"||name:"Kebab"||name:"Spinach roll"||name:"Super kebab"||name:"Baguette"||name:"Roll"||name:"* sandwich") {
+  icon = File("i_15_m.png");
+}
+apply (name:"Cake"||name:"Chocolate cake") {
+  icon = File("i_15_n.png");
+}
+apply (name:"Curry"||name:"Stew"||name:"Spicy stew") {
+  icon = File("i_15_o.png");
+}
+apply (name:"Chilli con carne"||name:"Egg and tomato"||name:"Mushroom & onion"||name:"Tuna and corn"||name:"Minced meat"||name:"Spicy sauce"||name:"Scrambled egg"||name:"Fried mushrooms"||name:"Fried onions"||name:"Chopped tuna"||name:"Spicy tomato"||name:"Spicy minced meat") {
+  icon = File("i_15_p.png");
+}
+apply (name:"Apple") {
+  icon = File("i_15_q.png");
+}
+apply (name:"Peach") {
+  icon = File("i_15_r.png");
+}
+apply (name:"Meat pie"||name:"Redberry pie"||name:"Apple pie"||name:"Garden pie"||name:"Fish pie"||name:"Botanical pie"||name:"Mushroom pie"||name:"Admiral pie"||name:"Dragonfruit pie"||name:"Wild pie"||name:"Summer pie") {
+  icon = File("i_15_s.png");
+}
+apply (name:"Plain pizza"||name:"Meat pizza"||name:"Anchovy pizza"||name:"Pineapple pizza") {
+  icon = File("i_15_t.png");
+}
+apply (name:"Strawberries*"||name:"Oranges*"||name:"Apples*"||name:"Tomatoes*"||name:"Strawberry"||name:"Orange"||name:"Tomato"||name:"Cheese"||name:"Pineapple"||name:"Pumpkin"||name:"Lemon"||name:"Lime"||name:"Papaya"||name:"Coconut"||name:"Watermelon"||name:"Dragonfruit") {
+  icon = File("i_15_u.png");
+}
+apply (name:"Cooked chicken"||name:"Cooked kyatt"||name:"Cooked pyre fox"||name:"Cooked dashing kebbit"||name:"Cooked chompy"||name:"Cooked rabbit"||name:"* bat *"||name:"Honey locust"||name:"Cooked graahk") {
+  icon = File("i_15_v.png");
+}
+apply (name:"Cooked meat"||name:"Cooked sunlight antelope"||name:"Cooked moonlight antelope"||name:"Cooked oomlie wrap"||name:"Cooked jubbly"||name:"Cooked larupia") {
+  icon = File("i_15_w.png");
+}
+apply (name:"Purple sweets") {
+  icon = File("i_15_x.png");
+}
+apply (name:"Banana"||name:"Bananas*"||name:"Red banana") {
+  icon = File("i_15_y.png");
 }
 
 // -------------------------------------------------------------------------
