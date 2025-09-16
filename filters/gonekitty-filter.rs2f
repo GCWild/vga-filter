@@ -910,10 +910,10 @@ apply (name:"Sea turtle") {
 apply (name:"Dark crab"||name:"Fresh crab *"||name:"Crab claw"||name:"Crab helmet") {
   icon = File("i_15_g.png");
 }
-apply (name:"Ixcoztic white"||name:"Guthix rest*"||name:"* ale"||name:"Beer"||name:"Chichilihui rosé"||name:"Moonlight mead") {
+apply (name:"Ixcoztic white"||name:"Guthix rest*"||name:"* ale"||name:"Beer"||name:"Chichilihui rosé"||name:"Moonlight mead"||name:"Metztonalli white"||name:"Tonameyo white") {
   icon = File("i_15_h.png");
 }
-apply (name:"Jug of wine"||name:"Zamorakian wine"||name:"Half full wine jug"||name:"Bottle of wine") {
+apply (name:"Jug of wine"||name:"Zamorakian wine"||name:"Half full wine jug"||name:"Bottle of wine"||name:"Eclipse red"||name:"Blackbird red"||name:"Chilhuac red"||name:"Imperial rosé") {
   icon = File("i_15_i.png");
 }
 apply (name:"Wizard's mind bomb") {
