@@ -100,7 +100,7 @@ apply (value:>10000||name:"Orange spice *")
 }
 
 // High value
-apply (value:>35000)
+apply (value:>30000)
 {
   //icon = File("i_1_i.png");
   sound = "rar_1.wav";
@@ -115,7 +115,7 @@ apply (value:>35000)
 }
 
 // Higher Value
-apply (value:>100000)
+apply (value:>90000)
 {
   icon = File("i_2_e.png");
   sound = "rar_2.wav";
@@ -130,7 +130,7 @@ apply (value:>100000)
 }
 
 // Valuable Unique
-apply (value:>500000)
+apply (value:>200000)
 {
   icon = File("i_2_f.png");
   sound = "rar_4.wav";
@@ -470,7 +470,7 @@ name:"Ancient godsword"||name:"Zaryte crossbow"||name:"Venator bow"||name:"Ancie
 }
 
 // Seren
-apply (name:"Seren halo"||name:"Crystal *"||name:"Blade of saeldo*"||name:"Bow of faerdhine*"||name:"Eternal teleport crystal"||name:"Teleport crystal"||name:"Crystal teleport seed") {
+apply (name:"Seren halo"||name:"Crystal *"||name:"Blade of saeldo*"||name:"Bow of faerdhine*"||name:"Eternal teleport crystal"||name:"Teleport crystal"||name:"Crystal teleport seed"||name:"Corrupted teleport crystal") {
   icon = File("i_6_seren.png");
 }
 
@@ -500,7 +500,7 @@ apply (name:"Holy symbol") {
 }
 
 // Ralos
-apply (name:"Dizana's quiver"||name:"Sunfire fanatic armour"||name:"Tonalztics of ralos"||name:"Tome of the sun"||name:"Blessed bone *"||name:"Sun-kissed *") {
+apply (name:"Dizana's quiver"||name:"Sunfire fanatic *"||name:"Tonalztics of ralos"||name:"Tome of the sun") {
   icon = File("i_6_ralos.png");
 }
 
@@ -510,7 +510,7 @@ apply (name:"Mask of ranul"||name:"Tome of the moon"||name:"Helmet of the moon")
 }
 
 // Zulrah
-apply (name:"Tanzanite fang"||name:"Magic fang"||name:"Serpentine visage"||name:"Tanzanite mutagen"||name:"Magma mutagen"||name:"Zulrah's scales") {
+apply (name:"Tanzanite mutagen"||name:"Magma mutagen"||name:"Zulrah's scales") {
   icon = File("i_6_zulrah.png");
 }
 
@@ -904,9 +904,9 @@ apply (name:"Monkfish"||name:"Blighted manta ray"||name:"Manta ray") {
 apply (name:"Cooked karambwan"||name:"Blighted karambwan") {
   icon = File("i_15_e.png");
 }
-apply (name:"Sea turtle") {
-  icon = File("i_15_f.png");
-}
+//apply (name:"Sea turtle") {
+//  icon = File("i_15_f.png");
+//}
 apply (name:"Dark crab"||name:"Fresh crab *"||name:"Crab claw"||name:"Crab helmet") {
   icon = File("i_15_g.png");
 }
@@ -919,7 +919,7 @@ apply (name:"Jug of wine"||name:"Zamorakian wine"||name:"Half full wine jug"||na
 apply (name:"Wizard's mind bomb") {
   icon = File("i_15_j.png");
 }
-apply (name:"Flour"||name:"Cabbages*"||name:"Cabbage"||name:"Onions*"||name:"Onion"||name:"Potatoes*"||name:"Potato") {
+apply (name:"Flour"||name:"Cabbages*"||name:"Cabbage"||name:"Onions*"||name:"Onion"||name:"Potatoes*"||name:"Potato"||name:"Garlic"||name:"Sweetcorn") {
   icon = File("i_15_k.png");
 }
 apply (name:"Potato with cheese"||name:"Potato with butter"||name:"Chilli potato"||name:"Egg potato"||name:"Mushroom potato"||name:"Tuna potato"||name:"Baked potato") {
@@ -958,7 +958,7 @@ apply (name:"Cooked chicken"||name:"Cooked kyatt"||name:"Cooked pyre fox"||name:
 apply (name:"Cooked meat"||name:"Cooked sunlight antelope"||name:"Cooked moonlight antelope"||name:"Cooked oomlie wrap"||name:"Cooked jubbly"||name:"Cooked larupia") {
   icon = File("i_15_w.png");
 }
-apply (name:"Purple sweets") {
+apply (name:"Purple sweets"||name:"Strange fruit"||name:"Chocolate bar") {
   icon = File("i_15_x.png");
 }
 apply (name:"Banana"||name:"Bananas*"||name:"Red banana") {
@@ -988,7 +988,8 @@ apply (name:"Hueycoatl hide"||name:"Odium shard *"||name:"Malediction shard *"||
 
 // Ownership clause
 apply (ownership:2) {
-  icon = File("i_0.png");
+  //uncomment if you want the red X icon...
+  //icon = File("i_0.png");
   sound = "null.wav";
   menuTextColor = "ffa0a0a0";
   textColor = "ffa0a0a0";
