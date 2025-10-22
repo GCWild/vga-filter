@@ -5,6 +5,8 @@ Filter for use with the [Loot Filters](https://runelite.net/plugin-hub/show/loot
 Categories and icons for drops according to value, material, origin or rarity.
 Primarily for ironmen that never want to hide any drops - only regular bones are hidden.
 
+This is an ironman filter! If you don't want drops from other people to be de-prioritised, remove the section called 'ownership clause' at the bottom of the filter.
+
 Most boss drops and notable items have bespoke icons with appropriate colours added to them.
 Some are deliberately left empty to avoid clutter.
 
