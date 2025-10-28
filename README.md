@@ -16,6 +16,9 @@ Drops with nominal value have exceptions added to them to produce a satisfying r
 # Installation
 
 Just drag and drop the icons/ and filters/ folders into your .runelite/loot-filters/ folder.
+Open the loot-filters config in runelite and select vga-filter in the drop-down list.
+
+<img width="280" height="100" alt="ss7" src="https://github.com/user-attachments/assets/3e401d6a-7f04-48f8-a2d1-5bc8b0911adf" />
 
 
 ## Optional sound functionality
@@ -34,6 +37,11 @@ if you make a sounds/ folder in your .runelite/loot-filters/ folder and add file
 <img width="650" height="400" alt="ss4" src="https://github.com/user-attachments/assets/67223987-4062-4e5e-af31-dff4d0452267" />
 <img width="650" height="400" alt="ss5" src="https://github.com/user-attachments/assets/5646c483-593c-45f4-a778-5c1934beebf3" />
 <img width="650" height="400" alt="ss6" src="https://github.com/user-attachments/assets/36197ff1-31cd-4e65-8464-53f031bc0c1b" />
+
+# Addendum
+
+The filter gets updated piecemeal sporadically as I play OSRS more and feel additions are needed, or when I feel icons need additional polish. You can contact me at @gonekittywild on Discord for help with the filter.
+
 
 # Additional visuals
 
