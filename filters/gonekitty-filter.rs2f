@@ -1,5 +1,16 @@
-meta { name = "wobbly-filter";
-	   description = "A filter";}
+meta { name = "vga-filter";
+	   description = "OSRS Loot-filter
+	   
+∩―――∩
+| |  ∧ ﾍ　 |  |.oO{ ☆Imbued heart }
+|| (* ´ ｰ`) ZZzz..
+|ﾉ^⌒⌒づ`￣ ＼
+(　ノ　　⌒ ヽ  ＼ 
+＼　　||￣￣￣￣￣||
+　＼,ﾉ ||                           ||
+";}
+
+// by gonekittywild
 
 // Items to hide
 HIDE("Bones")
@@ -87,7 +98,7 @@ apply (value:>4000)
 // Moderate value
 apply (value:>10000||name:"Orange spice *")
 {
-  //icon = File("i_1_g.png");
+  icon = File("i_1_g.png");
   sound = "rar_0.wav";
   menuTextColor = "ffffcf84";
   textColor = "ffffcf84";
@@ -102,7 +113,7 @@ apply (value:>10000||name:"Orange spice *")
 // High value
 apply (value:>30000)
 {
-  //icon = File("i_1_i.png");
+  icon = File("i_1_i.png");
   sound = "rar_1.wav";
   menuTextColor = "ffff6400";
   textColor = "ffff6400";
@@ -130,7 +141,7 @@ apply (value:>90000)
 }
 
 // Valuable Unique
-apply (value:>200000)
+apply (value:>200000||name:"Godsword shard *")
 {
   icon = File("i_2_f.png");
   sound = "rar_4.wav";
@@ -145,7 +156,7 @@ apply (value:>200000)
 }
 
 // Extreme rarity
-apply (value:>1000000||name:"* champion scroll"||name:"Jar of *"||name:"* head"||name:"Kq head (tattered)"||name:"* sigil"||name:"Godsword shard *"||name:"Dragonbane necklace"||name:"Noxious *"||name:"* mutagen"
+apply (value:>1000000||name:"* champion scroll"||name:"Jar of *"||name:"* head"||name:"Kq head (tattered)"||name:"* sigil"||name:"Dragonbane necklace"||name:"Noxious *"||name:"* mutagen"
 ||name:"Elysian sigil"||name:"Araxyte fang")
 {
   icon = File("i_2_i.png");
@@ -470,8 +481,13 @@ name:"Ancient godsword"||name:"Zaryte crossbow"||name:"Venator bow"||name:"Ancie
 }
 
 // Seren
-apply (name:"Seren halo"||name:"Crystal *"||name:"Blade of saeldo*"||name:"Bow of faerdhine*"||name:"Eternal teleport crystal"||name:"Teleport crystal"||name:"Crystal teleport seed"||name:"Corrupted teleport crystal") {
+apply (name:"Seren halo"||name:"Crystal *"||name:"Blade of saeldo*"||name:"Bow of faerdhine*"||name:"Eternal teleport crystal"||name:"Teleport crystal"||name:"Crystal teleport seed"||name:"Weapon frame") {
   icon = File("i_6_seren.png");
+}
+
+// Corruption
+apply (name:"Corrupted teleport crystal"||name:"Weapon frame (corrupted)") {
+  icon = File("i_6_seren_b.png");
 }
 
 // V
@@ -605,25 +621,25 @@ apply (name:"Uncut zenyte"||name:"Zenyte"||name:"Zenyte shard") {
 apply (name:"Coins") {
   icon = File("i_8_s.png");
 }
-apply (name:"Coins"&&value:>49) {
+apply (name:"Coins"&&value:>499) {
   icon = File("i_8_m.png");
 }
-apply (name:"Coins"&&value:>499) {
+apply (name:"Coins"&&value:>999) {
   icon = File("i_8_ms.png");
 }
-apply (name:"Coins"&&value:>999) {
+apply (name:"Coins"&&value:>1999) {
   icon = File("i_8_l.png");
 }
-apply (name:"Coins"&&value:>1999) {
+apply (name:"Coins"&&value:>4999) {
   icon = File("i_8_mm.png");
 }
-apply (name:"Coins"&&value:>4999) {
+apply (name:"Coins"&&value:>9999) {
   icon = File("i_8_ml.png");
 }
-apply (name:"Coins"&&value:>9999) {
+apply (name:"Coins"&&value:>49999) {
   icon = File("i_8_ll.png");
 }
-apply (name:"Coins"&&value:>19999) {
+apply (name:"Coins"&&value:>99999) {
   icon = File("i_8_xll.png");
 }
 
@@ -889,7 +905,7 @@ apply (name:"Superior dragon bones") {
 
 // Food clause
 
-apply (name:"Shrimps"||name:"Herring"||name:"Mackerel"||name:"Lobster"||name:"Lava eel") {
+apply (name:"Shrimps"||name:"Herring"||name:"Mackerel"||name:"Lobster"||name:"Lava eel"||name:"Anchovies") {
   icon = File("i_15_a.png");
 }
 apply (name:"Trout"||name:"Pike"||name:"Salmon"||name:"Bass") {
@@ -952,7 +968,7 @@ apply (name:"Plain pizza"||name:"Meat pizza"||name:"Anchovy pizza"||name:"Pineap
 apply (name:"Strawberries*"||name:"Oranges*"||name:"Apples*"||name:"Tomatoes*"||name:"Strawberry"||name:"Orange"||name:"Tomato"||name:"Cheese"||name:"Pineapple"||name:"Pumpkin"||name:"Lemon"||name:"Lime"||name:"Papaya"||name:"Coconut"||name:"Watermelon"||name:"Dragonfruit") {
   icon = File("i_15_u.png");
 }
-apply (name:"Cooked chicken"||name:"Cooked kyatt"||name:"Cooked pyre fox"||name:"Cooked dashing kebbit"||name:"Cooked chompy"||name:"Cooked rabbit"||name:"* bat *"||name:"Honey locust"||name:"Cooked graahk") {
+apply (name:"Cooked chicken"||name:"Cooked kyatt"||name:"Cooked pyre fox"||name:"Cooked dashing kebbit"||name:"Cooked chompy"||name:"Cooked rabbit"||name:"Honey locust"||name:"Cooked graahk") {
   icon = File("i_15_v.png");
 }
 apply (name:"Cooked meat"||name:"Cooked sunlight antelope"||name:"Cooked moonlight antelope"||name:"Cooked oomlie wrap"||name:"Cooked jubbly"||name:"Cooked larupia") {
@@ -988,8 +1004,7 @@ apply (name:"Hueycoatl hide"||name:"Odium shard *"||name:"Malediction shard *"||
 
 // Ownership clause
 apply (ownership:2) {
-  //uncomment if you want the red X icon...
-  //icon = File("i_0.png");
+  icon = File("null.png");
   sound = "null.wav";
   menuTextColor = "ffa0a0a0";
   textColor = "ffa0a0a0";
@@ -1005,7 +1020,15 @@ apply (ownership:2) {
 
 // Test
 /*
-apply (name:"Rune pickaxe") {
-  icon = File("i_14_a.png");
+apply (name:"Mithril pickaxe") {
+  icon = File("i_7_a.png");
+  menuTextColor = "ffffffff";
+  textColor = "ffffffff";
+  borderColor = "ffffffff";
+  backgroundColor = "ffaf6025";
+  showLootbeam = true;
+  notify = true;
+  textAccent = 1;
+  fontType = FONTTYPE_LARGER;
 }
 */
