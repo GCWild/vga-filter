@@ -7,7 +7,7 @@ Colors and backgrounds of the drops denominate value and rarity while icons prov
 
 Primarily for ironmen that never want to hide any drops - only regular bones are hidden.
 
-### This is an ironman filter! If you don't want drops from other people to be de-prioritised, remove the section called 'ownership clause' at the bottom of the filter.
+### This is an ironman filter! If you don't want drops from other people to be de-prioritised, remove the section called 'ownership clause' at the bottom of the filter or download the filter with 'trade' in the name. This trade filter doesn't de-prioritise the drops of others and hides all items under the value of 500gp
 
 Most boss drops and notable items have bespoke icons with appropriate colours added to them.
 Drops with nominal value have exceptions added to them to produce a satisfying rush when they drop.
