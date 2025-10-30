@@ -903,6 +903,13 @@ apply (name:"Superior dragon bones") {
 
 // -------------------------------------------------------------------------
 
+apply (name:"Mossy key"||name:"Moon key"||name:"Loot key"||name:"Larran's key"||name:"Enhanced crystal key"||name:"Ecumenical key"||name:"Crystal key"||name:"Brimstone key"||name:"Bank key"||name:"Muddy key"||name:"Sinister key"||
+name:"Temple key"||name:"Zombie pirate key"||name:"* key *") {
+  icon = File("i_16.png");
+}
+
+// -------------------------------------------------------------------------
+
 // Food clause
 
 apply (name:"Shrimps"||name:"Herring"||name:"Mackerel"||name:"Lobster"||name:"Lava eel"||name:"Anchovies") {
@@ -929,7 +936,7 @@ apply (name:"Dark crab"||name:"Fresh crab *"||name:"Crab claw"||name:"Crab helme
 apply (name:"Ixcoztic white"||name:"Guthix rest*"||name:"* ale"||name:"Beer"||name:"Chichilihui rosé"||name:"Moonlight mead"||name:"Metztonalli white"||name:"Tonameyo white") {
   icon = File("i_15_h.png");
 }
-apply (name:"Jug of wine"||name:"Zamorakian wine"||name:"Half full wine jug"||name:"Bottle of wine"||name:"Eclipse red"||name:"Blackbird red"||name:"Chilhuac red"||name:"Imperial rosé") {
+apply (name:"Jug of wine"||name:"Wine of zamorak"||name:"Half full wine jug"||name:"Bottle of wine"||name:"Eclipse red"||name:"Blackbird red"||name:"Chilhuac red"||name:"Imperial rosé") {
   icon = File("i_15_i.png");
 }
 apply (name:"Wizard's mind bomb") {
@@ -965,7 +972,7 @@ apply (name:"Meat pie"||name:"Redberry pie"||name:"Apple pie"||name:"Garden pie"
 apply (name:"Plain pizza"||name:"Meat pizza"||name:"Anchovy pizza"||name:"Pineapple pizza") {
   icon = File("i_15_t.png");
 }
-apply (name:"Strawberries*"||name:"Oranges*"||name:"Apples*"||name:"Tomatoes*"||name:"Strawberry"||name:"Orange"||name:"Tomato"||name:"Cheese"||name:"Pineapple"||name:"Pumpkin"||name:"Lemon"||name:"Lime"||name:"Papaya"||name:"Coconut"||name:"Watermelon"||name:"Dragonfruit") {
+apply (name:"Strawberries*"||name:"White berries"||name:"Oranges*"||name:"Apples*"||name:"Tomatoes*"||name:"Strawberry"||name:"Orange"||name:"Tomato"||name:"Cheese"||name:"Pineapple"||name:"Pumpkin"||name:"Lemon"||name:"Lime"||name:"Papaya fruit"||name:"Coconut"||name:"Watermelon"||name:"Dragonfruit") {
   icon = File("i_15_u.png");
 }
 apply (name:"Cooked chicken"||name:"Cooked kyatt"||name:"Cooked pyre fox"||name:"Cooked dashing kebbit"||name:"Cooked chompy"||name:"Cooked rabbit"||name:"Honey locust"||name:"Cooked graahk") {
@@ -996,7 +1003,7 @@ name:"Silver speedrun trophy"||name:"Gold speedrun trophy"||name:"Platinum speed
 
 // -------------------------------------------------------------------------
 // Boss drops
-apply (name:"Hueycoatl hide"||name:"Odium shard *"||name:"Malediction shard *"||name:"Skull of vet'ion"||name:"Steel ring"||name:"Tyrannical ring"||name:"Fangs of venenatis"||name:"Dossier"||name:"Forgotten lockbox"||name:"Unsired"||name:"Lamp"||name:"* lamp") {
+apply (name:"Hueycoatl hide"||name:"Odium shard *"||name:"Malediction shard *"||name:"Skull of vet'ion"||name:"Steel ring"||name:"Tyrannical ring"||name:"Fangs of venenatis"||name:"Dossier"||name:"Forgotten lockbox"||name:"Unsired"||name:"Lamp"||name:"* lamp"||name:"Frozen cache") {
   icon = File("i_14_c.png");
 }
 
