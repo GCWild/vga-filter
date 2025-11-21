@@ -68,6 +68,9 @@ apply (value:>750)
   fontType = FONTTYPE_NORMAL;
 }
 
+// -/ Filter merge start /-----------------------------------------------//
+
+
 // Medium low value Item
 apply (value:>1500)
 {
@@ -235,12 +238,12 @@ apply (name:"Cannonball") {
 // Pale large
 // Opal, Pearl, teak maho, other light woods
 apply (name:"Opal *"||name:"Pearl *"||name:"Ring of pursuit"||name:"Dodgy necklace"||name:"Expeditious bracelet"||name:"Amulet of bounty"
-||name:"Teak *"||name:"Mahogany *"||name:"White logs"||name:"Blisterwood *"||name:"Juniper *"||name:"Waxwood *") {
+||name:"Teak *"||name:"Mahogany *"||name:"White logs"||name:"Blisterwood *"||name:"Juniper *"||name:"Waxwood *"||name:"Jabota *"||name:"Camphor *") {
   icon = File("i_4_a.png");
 }
 
 // Willow, Maple, Yew, Achey, Bruma, Windswept, bronze
-apply (name:"Willow *"||name:"Maple *"||name:"Yew *"||name:"Achey *"||name:"Bruma *"||name:"Deadwood *"||name:"Windswept *"||name:"Bronze *") {
+apply (name:"Willow *"||name:"Maple *"||name:"Yew *"||name:"Achey *"||name:"Bruma *"||name:"Deadwood *"||name:"Windswept *"||name:"Bronze *"||name:"Rosewood *") {
   icon = File("i_4_b.png");
 }
 
@@ -250,13 +253,13 @@ apply (name:"Onyx *"||name:"Black chinchompa"||name:"Regen bracelet"||name:"Bers
 }
 
 // Iron
-apply (name:"Iron *"||name:"Broad bolts"||name:"Chinchompa") {
+apply (name:"Iron *"||name:"Broad bolts"||name:"Chinchompa"||name:"Lead bar") {
   icon = File("i_4_d.png");
 }
 
 // Copper Large
 // Oak, Logs, Pyew, Arctic Pine, Scrapey tree, copper
-apply (name:"Logs"||name:"Logs and kindling"||name:"Pyre logs"||name:"Oak *"||name:"Arctic pine *"||name:"Scrapey tree *"||name:"Copper *") {
+apply (name:"Logs"||name:"Logs and kindling"||name:"Pyre logs"||name:"Oak *"||name:"Arctic pine *"||name:"Scrapey tree *"||name:"Copper *"||name:"Cupronickel *") {
   icon = File("i_4_e.png");
 }
 
@@ -284,7 +287,7 @@ apply (name:"Dragon *"||name:"Red chinchompa") {
 }
 
 // Redwood
-apply (name:"Redwood *"||name:"Red mahogany *") {
+apply (name:"Redwood *"||name:"Red mahogany *"||name:"Ironwood *") {
   icon = File("i_4_j.png");
 }
 
@@ -321,12 +324,12 @@ apply (name:"Red topaz *"||name:"Efaritay's aid"||name:"Necklace of faith"||name
 // -------------------------------------------------------------------------
 
 // Teak, Mahogany, opal, pearl
-apply (name:"Teak logs"||name:"Mahogany logs"||name:"Opal amulet (u)"||name:"Opal bolt tips"||name:"Pearl bolt tips") {
+apply (name:"Teak logs"||name:"Mahogany logs"||name:"Opal amulet (u)"||name:"Opal bolt tips"||name:"Pearl bolt tips"||name:"Jabota logs"||name:"Camphor logs") {
   icon = File("i_4_a_s.png");
 }
 
 // Bronze secondaries
-apply (name:"Bronze arrowtips"||name:"Bronze bolts (unf)"||name:"Bronze javelin heads"||name:"Willow logs"||name:"Maple logs"||name:"Yew logs"||name:"Willow * (u)"||name:"Yew * (u)"||name:"Maple * (u)") {
+apply (name:"Bronze arrowtips"||name:"Bronze bolts (unf)"||name:"Bronze javelin heads"||name:"Willow logs"||name:"Maple logs"||name:"Yew logs"||name:"Willow * (u)"||name:"Yew * (u)"||name:"Maple * (u)"||name:"Rosewood logs") {
   icon = File("i_4_b_s.png");
 }
 
@@ -336,7 +339,7 @@ apply (name:"Onyx amulet (u)"||name:"Onyx bolt tips"||name:"Coal"||name:"Black d
 }
 
 // Iron
-apply (name:"Iron ore"||name:"Iron arrowtips"||name:"Iron bolts (unf)"||name:"Iron javelin heads"||name:"Unfinished broad bolts") {
+apply (name:"Iron ore"||name:"Iron arrowtips"||name:"Iron bolts (unf)"||name:"Iron javelin heads"||name:"Unfinished broad bolts"||name:"Lead ore") {
   icon = File("i_4_d_s.png");
 }
 
@@ -367,7 +370,7 @@ apply (name:"Dragon arrowtips"||name:"Dragon dart tip"||name:"Dragon javelin hea
 }
 
 // Redwood
-apply (name:"Redwood logs") {
+apply (name:"Redwood logs"||name:"Ironwood logs") {
   icon = File("i_4_j_s.png");
 }
 
@@ -386,7 +389,7 @@ apply (name:"Emerald amulet (u)"||name:"Emerald bolt tips"||name:"Green dragonhi
 // Sapphire, blue dragons smalls, runite smalls, magic logs, mythril
 apply (name:"Sapphire amulet (u)"||name:"Sapphire bolt tips"||name:"Blue dragon scale"||name:"Blurite bolts (unf)"||name:"Blue dragonhide"||name:"Runite ore"
 ||name:"Rune arrowtips"||name:"Rune javelin heads"||name:"Rune dart tip"||name:"Runite bolts (unf)"||name:"Magic logs"||name:"Mithril ore"||name:"Mithril arrowtips"
-||name:"Mithril bolts (unf)"||name:"Mithril javelin heads"||name:"Blue dragon leather"||name:"Magic * (u)") {
+||name:"Mithril bolts (unf)"||name:"Mithril javelin heads"||name:"Blue dragon leather"||name:"Magic * (u)"||name:"Nickel ore") {
   icon = File("i_4_n_s.png");
 }
 
@@ -934,7 +937,7 @@ apply (name:"Cooked karambwan"||name:"Blighted karambwan") {
 apply (name:"Dark crab"||name:"Fresh crab *"||name:"Crab claw"||name:"Crab helmet") {
   icon = File("i_15_g.png");
 }
-apply (name:"Ixcoztic white"||name:"Guthix rest*"||name:"* ale"||name:"Beer"||name:"Chichilihui rosé"||name:"Moonlight mead"||name:"Metztonalli white"||name:"Tonameyo white") {
+apply (name:"Ixcoztic white"||name:"Guthix rest*"||name:"* ale"||name:"Beer"||name:"Chichilihui rosé"||name:"Moonlight mead"||name:"Metztonalli white"||name:"Tonameyo white"||name:"Rum") {
   icon = File("i_15_h.png");
 }
 apply (name:"Jug of wine"||name:"Wine of zamorak"||name:"Half full wine jug"||name:"Bottle of wine"||name:"Eclipse red"||name:"Blackbird red"||name:"Chilhuac red"||name:"Imperial rosé") {
