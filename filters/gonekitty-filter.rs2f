@@ -899,7 +899,7 @@ apply (name:"Curved bone") {
 apply (name:"Sun-kissed bones"||name:"Blessed * bones") {
   icon = File("i_12_g.png");
 }
-apply (name:"Superior dragon bones") {
+apply (name:"Superior dragon bones"||name:"Frost dragon bones") {
   icon = File("i_12_h.png");
 }
 
