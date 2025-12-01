@@ -912,20 +912,24 @@ name:"Temple key"||name:"Zombie pirate key"||name:"* key *") {
   icon = File("i_16.png");
 }
 
+apply (name:"Feather"||name:"Gryphon feather"||name:"Pheasant tail feather") {
+  icon = File("i_17.png");
+}
+
 // -------------------------------------------------------------------------
 
 // Food clause
 
-apply (name:"Shrimps"||name:"Herring"||name:"Mackerel"||name:"Lobster"||name:"Lava eel"||name:"Anchovies") {
+apply (name:"Shrimps"||name:"Herring"||name:"Mackerel"||name:"Lobster"||name:"Lava eel"||name:"Anchovies"||name:"Jumbo squid") {
   icon = File("i_15_a.png");
 }
-apply (name:"Trout"||name:"Pike"||name:"Salmon"||name:"Bass") {
+apply (name:"Trout"||name:"Pike"||name:"Salmon"||name:"Bass"||name:"Bluefin"||name:"Yellowfin"||name:"Haddock") {
   icon = File("i_15_b.png");
 }
-apply (name:"Tuna"||name:"Shark"||name:"Swordfish"||name:"Anglerfish"||name:"Blighted anglerfish") {
+apply (name:"Tuna"||name:"Shark"||name:"Swordfish"||name:"Anglerfish"||name:"Blighted anglerfish"||name:"Marlin") {
   icon = File("i_15_c.png");
 }
-apply (name:"Monkfish"||name:"Blighted manta ray"||name:"Manta ray") {
+apply (name:"Monkfish"||name:"Blighted manta ray"||name:"Manta ray"||name:"Halibut") {
   icon = File("i_15_d.png");
 }
 apply (name:"Cooked karambwan"||name:"Blighted karambwan") {
@@ -937,7 +941,7 @@ apply (name:"Cooked karambwan"||name:"Blighted karambwan") {
 apply (name:"Dark crab"||name:"Fresh crab *"||name:"Crab claw"||name:"Crab helmet") {
   icon = File("i_15_g.png");
 }
-apply (name:"Ixcoztic white"||name:"Guthix rest*"||name:"* ale"||name:"Beer"||name:"Chichilihui rosé"||name:"Moonlight mead"||name:"Metztonalli white"||name:"Tonameyo white"||name:"Rum") {
+apply (name:"Ixcoztic white"||name:"Guthix rest*"||name:"* ale"||name:"Beer"||name:"Chichilihui rosé"||name:"Moonlight mead"||name:"Metztonalli white"||name:"Tonameyo white"||name:"Rum"||name:"Cider") {
   icon = File("i_15_h.png");
 }
 apply (name:"Jug of wine"||name:"Wine of zamorak"||name:"Half full wine jug"||name:"Bottle of wine"||name:"Eclipse red"||name:"Blackbird red"||name:"Chilhuac red"||name:"Imperial rosé") {
@@ -946,7 +950,7 @@ apply (name:"Jug of wine"||name:"Wine of zamorak"||name:"Half full wine jug"||na
 apply (name:"Wizard's mind bomb") {
   icon = File("i_15_j.png");
 }
-apply (name:"Flour"||name:"Cabbages*"||name:"Cabbage"||name:"Onions*"||name:"Onion"||name:"Potatoes*"||name:"Potato"||name:"Garlic"||name:"Sweetcorn") {
+apply (name:"Flour"||name:"Cabbages*"||name:"Cabbage"||name:"Onions*"||name:"Onion"||name:"Potatoes*"||name:"Potato"||name:"Garlic"||name:"Sweetcorn"||name:"Limpwurt root") {
   icon = File("i_15_k.png");
 }
 apply (name:"Potato with cheese"||name:"Potato with butter"||name:"Chilli potato"||name:"Egg potato"||name:"Mushroom potato"||name:"Tuna potato"||name:"Baked potato") {
@@ -990,6 +994,9 @@ apply (name:"Purple sweets"||name:"Strange fruit"||name:"Chocolate bar") {
 }
 apply (name:"Banana"||name:"Bananas*"||name:"Red banana") {
   icon = File("i_15_y.png");
+}
+apply (name:"Mushroom"||name:"Mushrooms"||name:"Mort myre fungus"||name:"Stinkhorn mushroom"||name:"Sulliuscep cap") {
+  icon = File("i_15_z.png");
 }
 
 // -------------------------------------------------------------------------
