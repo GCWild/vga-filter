@@ -31,6 +31,10 @@ if you make a sounds/ folder in your .runelite/loot-filters/ folder and add file
 These .wav files need to be properly converted if your sound of origin is in a different format.
 Google will have lots of resources on doing this!
 
+<img width="510" height="308" alt="image" src="https://github.com/user-attachments/assets/d02beab4-e89b-41da-872b-5eaea9705455" />
+
+
+
 
 # Examples
 <img width="650" height="400" alt="ss0" src="https://github.com/user-attachments/assets/608c0f8e-07f7-4aab-b1a3-5bc268432d53" />
