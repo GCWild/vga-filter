@@ -28,6 +28,13 @@ The intention is that the higher the number, the rarer the item that dropped.
 I cannot include these sounds here, but you may freely substitute your own sounds to make use of this functionality
 if you make a sounds/ folder in your .runelite/loot-filters/ folder and add files with these names.
 
+These .wav files need to be properly converted if your sound of origin is in a different format.
+Google will have lots of resources on doing this!
+
+<img width="510" height="308" alt="image" src="https://github.com/user-attachments/assets/d02beab4-e89b-41da-872b-5eaea9705455" />
+
+
+
 
 # Examples
 <img width="650" height="400" alt="ss0" src="https://github.com/user-attachments/assets/608c0f8e-07f7-4aab-b1a3-5bc268432d53" />
@@ -40,7 +47,7 @@ if you make a sounds/ folder in your .runelite/loot-filters/ folder and add file
 
 # Addendum
 
-The filter gets updated piecemeal sporadically as I play OSRS more and feel additions are needed, or when I feel icons need additional polish. You can contact me at @gonekittywild on Discord for help with the filter.
+The filter gets updated piecemeal sporadically as I play OSRS more and feel additions are needed, or when I feel icons need additional polish. You can contact me at @gonekittywild on Discord for help with the filter. Just keep messaging me if I don't reply - I'm very bad at checking.
 
 
 # Additional visuals
