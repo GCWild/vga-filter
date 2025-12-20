@@ -194,7 +194,7 @@ apply (name:"Ensouled * head"||name:"Long bone"||name:"* half of key"||name:"Clu
 apply (name:"Dark Totem *"||name:"Ancient Shard"||name:"Curved Bone"||name:"Clue scroll (hard)"||name:"Clue scroll (elite)"||name:"Clue geode (hard)"||name:"Clue geode (elite)"||name:"Shield * half")
 {
   icon = File("i_2_g.png");
-  sound = "rar_4.wav";
+  sound = "rar_3.wav";
   menuTextColor = "ffaf6025";
   textColor = "ff000000";
   borderColor = "ff000000";
@@ -908,7 +908,7 @@ apply (name:"Superior dragon bones"||name:"Frost dragon bones") {
 // -------------------------------------------------------------------------
 
 apply (name:"Mossy key"||name:"Moon key"||name:"Loot key"||name:"Larran's key"||name:"Enhanced crystal key"||name:"Ecumenical key"||name:"Crystal key"||name:"Brimstone key"||name:"Bank key"||name:"Muddy key"||name:"Sinister key"||
-name:"Temple key"||name:"Zombie pirate key"||name:"* key *") {
+name:"Temple key"||name:"Zombie pirate key"||name:"* key *"||name:"Dark key"||name:"Key *") {
   icon = File("i_16.png");
 }
 
@@ -1008,7 +1008,7 @@ name:"Carrot sword"||name:"'24-carat' sword"||name:"Haunted wine bottle"||name:"
 name:"Giant boulder"||name:"Cursed banana"||name:"Love crossbow"||name:"Crier bell"||name:"Gilded spade"||name:"Large spade"||name:"Clueless scroll"||name:"Red flowers"||name:"Blue flowers"||name:"Yellow flowers"||name:"Purple flowers"||name:"Orange flowers"||
 name:"Mixed flowers"||name:"Assorted flowers"||name:"Black flowers"||name:"White flowers"||name:"Twisted adamant trophy"||name:"Twisted rune trophy"||name:"Twisted dragon trophy"||name:"Trailblazer adamant trophy"||name:"Trailblazer rune trophy"||name:"Trailblazer dragon trophy"||
 name:"Trailblazer reloaded adamant trophy"||name:"Trailblazer reloaded rune trophy"||name:"Trailblazer reloaded dragon trophy"||name:"Raging echoes adamant trophy"||name:"Raging echoes rune trophy"||name:"Raging echoes dragon trophy"||name:"Bronze speedrun trophy"||
-name:"Silver speedrun trophy"||name:"Gold speedrun trophy"||name:"Platinum speedrun trophy"||name:"Diamond speedrun trophy"||name:"Cursed goblin hammer"||name:"Golden tench"||name:"Mouse toy"||name:"Stale baguette"||name:"Giant stopwatch"||name:"Mystic cards"||name:"Purple sweets") {
+name:"Silver speedrun trophy"||name:"Gold speedrun trophy"||name:"Platinum speedrun trophy"||name:"Diamond speedrun trophy"||name:"Cursed goblin hammer"||name:"Golden tench"||name:"Mouse toy"||name:"Stale baguette"||name:"Giant stopwatch"||name:"Mystic cards"||name:"* firelighter") {
   icon = File("i_10_fun.png");
 }
 
