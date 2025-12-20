@@ -28,6 +28,9 @@ The intention is that the higher the number, the rarer the item that dropped.
 I cannot include these sounds here, but you may freely substitute your own sounds to make use of this functionality
 if you make a sounds/ folder in your .runelite/loot-filters/ folder and add files with these names.
 
+These .wav files need to be properly converted if your sound of origin is in a different format.
+Google will have lots of resources on doing this!
+
 
 # Examples
 <img width="650" height="400" alt="ss0" src="https://github.com/user-attachments/assets/608c0f8e-07f7-4aab-b1a3-5bc268432d53" />
