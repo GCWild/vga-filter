@@ -47,7 +47,7 @@ Google will have lots of resources on doing this!
 
 # Addendum
 
-The filter gets updated piecemeal sporadically as I play OSRS more and feel additions are needed, or when I feel icons need additional polish. You can contact me at @gonekittywild on Discord for help with the filter.
+The filter gets updated piecemeal sporadically as I play OSRS more and feel additions are needed, or when I feel icons need additional polish. You can contact me at @gonekittywild on Discord for help with the filter. Just keep messaging me if I don't reply - I'm very bad at checking.
 
 
 # Additional visuals
