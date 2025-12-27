@@ -923,10 +923,10 @@ apply (name:"Feather"||name:"Gryphon feather"||name:"Pheasant tail feather") {
 apply (name:"Shrimps"||name:"Herring"||name:"Mackerel"||name:"Lobster"||name:"Lava eel"||name:"Anchovies"||name:"Jumbo squid") {
   icon = File("i_15_a.png");
 }
-apply (name:"Trout"||name:"Pike"||name:"Salmon"||name:"Bass"||name:"Bluefin"||name:"Yellowfin"||name:"Haddock") {
+apply (name:"Trout"||name:"Pike"||name:"Salmon"||name:"Bass"||name:"Bluefin"||name:"Yellowfin"||name:"Haddock"||name:"Leaping salmon"||name:"Leaping trout") {
   icon = File("i_15_b.png");
 }
-apply (name:"Tuna"||name:"Shark"||name:"Swordfish"||name:"Anglerfish"||name:"Blighted anglerfish"||name:"Marlin") {
+apply (name:"Tuna"||name:"Shark"||name:"Swordfish"||name:"Anglerfish"||name:"Blighted anglerfish"||name:"Marlin"||name:"Leaping sturgeon") {
   icon = File("i_15_c.png");
 }
 apply (name:"Monkfish"||name:"Blighted manta ray"||name:"Manta ray"||name:"Halibut") {
@@ -997,6 +997,12 @@ apply (name:"Banana"||name:"Bananas*"||name:"Red banana") {
 }
 apply (name:"Mushroom"||name:"Mushrooms"||name:"Mort myre fungus"||name:"Stinkhorn mushroom"||name:"Sulliuscep cap") {
   icon = File("i_15_z.png");
+}
+apply (name:"Hammer"||name:"Saw"||name:"Needle") {
+  icon = File("i_18_tool.png");
+}
+apply (name:"Flax"||name:"Cotton"||name:"Hemp") {
+  icon = File("i_18_fibre.png");
 }
 
 // -------------------------------------------------------------------------
