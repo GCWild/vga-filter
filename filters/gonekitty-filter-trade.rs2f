@@ -908,7 +908,7 @@ apply (name:"Superior dragon bones"||name:"Frost dragon bones") {
 // -------------------------------------------------------------------------
 
 apply (name:"Mossy key"||name:"Moon key"||name:"Loot key"||name:"Larran's key"||name:"Enhanced crystal key"||name:"Ecumenical key"||name:"Crystal key"||name:"Brimstone key"||name:"Bank key"||name:"Muddy key"||name:"Sinister key"||
-name:"Temple key"||name:"Zombie pirate key"||name:"* key *"||name:"Dark key"||name:"Key *") {
+name:"Temple key"||name:"Zombie pirate key"||name:"* key *"||name:"Dark key"||name:"Key *"||name:"Ancestral key") {
   icon = File("i_16.png");
 }
 
@@ -968,7 +968,7 @@ apply (name:"Curry"||name:"Stew"||name:"Spicy stew") {
 apply (name:"Chilli con carne"||name:"Egg and tomato"||name:"Mushroom & onion"||name:"Tuna and corn"||name:"Minced meat"||name:"Spicy sauce"||name:"Scrambled egg"||name:"Fried mushrooms"||name:"Fried onions"||name:"Chopped tuna"||name:"Spicy tomato"||name:"Spicy minced meat") {
   icon = File("i_15_p.png");
 }
-apply (name:"Apple") {
+apply (name:"Apple"||name:"Cooking apple") {
   icon = File("i_15_q.png");
 }
 apply (name:"Peach") {
@@ -1001,8 +1001,11 @@ apply (name:"Mushroom"||name:"Mushrooms"||name:"Mort myre fungus"||name:"Stinkho
 apply (name:"Hammer"||name:"Saw"||name:"Needle") {
   icon = File("i_18_tool.png");
 }
-apply (name:"Flax"||name:"Cotton"||name:"Hemp") {
+apply (name:"Flax"||name:"Cotton"||name:"Hemp"||name:"Thread") {
   icon = File("i_18_fibre.png");
+}
+apply (name:"Strawberry"||name:"Jangerberries"||name:"Redberries"||name:"* berries"||name:"Dwellberries"||name:"Tomberries") {
+  icon = File("i_18_berry.png");
 }
 
 // -------------------------------------------------------------------------
