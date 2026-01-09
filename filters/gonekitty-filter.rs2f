@@ -416,7 +416,7 @@ apply (name:"Staff of water"||name:"Water battlestaff"||name:"Mystic water staff
 }
 
 // Earth Staff
-apply (name:"Staff of earth"||name:"Earth battlestaff"||name:"Mystic earth staff"||name:"Tome of earth") {
+apply (name:"Staff of earth"||name:"Earth battlestaff"||name:"Mystic earth staff"||name:"Tome of earth"||name:"Elemental talisman") {
   icon = File("i_5_l.png");
 }
 
@@ -441,7 +441,7 @@ apply (name:"Mystic dust staff"||name:"Dust battlestaff") {
 apply (name:"Mystic lava staff"||name:"Lava battlestaff") {
   icon = File("i_5_h.png");
 }
-apply (name:"Mystic mist staff"||name:"Mist battlestaff") {
+apply (name:"Mystic mist staff"||name:"Mist battlestaff"||name:"Catalytic talisman") {
   icon = File("i_5_m.png");
 }
 
@@ -873,6 +873,18 @@ apply (name:"Lava rune") {
 apply (name:"Aether rune") {
   icon = File("i_9_w.png");
 }
+apply (name:"Air orb") {
+  icon = File("i_18_orb_air.png");
+}
+apply (name:"Earth orb") {
+  icon = File("i_18_orb_earth.png");
+}
+apply (name:"Fire orb") {
+  icon = File("i_18_orb_fire.png");
+}
+apply (name:"Water orb") {
+  icon = File("i_18_orb_water.png");
+}
 
 // -------------------------------------------------------------------------
 
@@ -884,7 +896,7 @@ apply (name:"Bones"||name:"Big bones"||name:"Bat bones"||name:"Wolf bones"||name
 apply (name:"Dagannoth bones"||name:""||name:"Bleached bones"||name:"Babydragon bones"||name:"Chewed bones"||name:"Fayrg bones"||name:"Jogre bones"||name:"Mangled bones"||name:"Ourg bones"||name:"Raurg bones"||name:"Zogre bones") {
   icon = File("i_12_b.png");
 }
-apply (name:"Dragon bones"||name:""||name:"Wyvern bones"||name:"Wyrmling bones"||name:"Wyrm bones"||name:"Lava dragon bones"||name:"Drake bones"||name:"Hydra bones") {
+apply (name:"Dragon bones"||name:""||name:"Wyvern bones"||name:"Wyrmling bones"||name:"Wyrm bones"||name:"Lava dragon bones"||name:"Drake bones"||name:"Hydra bones"||name:"Strykewyrm bones") {
   icon = File("i_12_c.png");
 }
 apply (name:"Blessed bone shards") {
