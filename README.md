@@ -12,6 +12,8 @@ Primarily for ironmen that never want to hide any drops - only regular bones are
 Most boss drops and notable items have bespoke icons with appropriate colours added to them.
 Drops with nominal value have exceptions added to them to produce a satisfying rush when they drop.
 
+This filter is not compatible with the filterscape website, you will need to make changes to it with a text editor.
+
 
 # Installation
 
