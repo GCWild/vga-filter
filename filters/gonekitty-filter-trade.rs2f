@@ -294,12 +294,13 @@ apply (name:"Redwood *"||name:"Red mahogany *"||name:"Ironwood *") {
 // Green large
 // Jade
 apply (name:"Jade *"||name:"Ogre arrows"||name:"Ring of returning"||name:"Necklace of passage"||name:"Flamtaer bracelet"||name:"Amulet of chemistry"
-||name:"Adamant *"||name:"Adamantite *") {
+||name:"Adamant *"||name:"Adamantite *"||name:"Xeric's talisman (inert)") {
   icon = File("i_4_k.png");
 }
 
 // Emerald
-apply (name:"Emerald *"||name:"Ring of dueling"||name:"Binding necklace"||name:"Castle wars bracelet"||name:"Amulet of defence"||name:"Amulet of nature"||name:"Green d'hide *"||name:"Green logs") {
+apply (name:"Emerald *"||name:"Ring of dueling"||name:"Binding necklace"||name:"Castle wars bracelet"||name:"Amulet of defence"||name:"Amulet of nature"||name:"Green d'hide *"||name:"Green logs"
+||name:"Xeric's talisman") {
   icon = File("i_4_l.png");
 }
 
@@ -901,7 +902,7 @@ apply (name:"Dagannoth bones"||name:""||name:"Bleached bones"||name:"Babydragon 
 apply (name:"Dragon bones"||name:""||name:"Wyvern bones"||name:"Wyrmling bones"||name:"Wyrm bones"||name:"Lava dragon bones"||name:"Drake bones"||name:"Hydra bones"||name:"Strykewyrm bones") {
   icon = File("i_12_c.png");
 }
-apply (name:"Blessed bone shards") {
+apply (name:"Blessed bone shards"||name:"Lizardman fang") {
   icon = File("i_12_d.png");
 }
 apply (name:"Long bone") {
@@ -962,7 +963,7 @@ apply (name:"Jug of wine"||name:"Wine of zamorak"||name:"Half full wine jug"||na
 apply (name:"Wizard's mind bomb") {
   icon = File("i_15_j.png");
 }
-apply (name:"Flour"||name:"Cabbages*"||name:"Cabbage"||name:"Onions*"||name:"Onion"||name:"Potatoes*"||name:"Potato"||name:"Garlic"||name:"Sweetcorn"||name:"Limpwurt root") {
+apply (name:"Flour"||name:"Cabbages*"||name:"Cabbage"||name:"Onions*"||name:"Onion"||name:"Potatoes*"||name:"Potato"||name:"Garlic"||name:"Sweetcorn"||name:"Limpwurt root"||name:"Snape grass") {
   icon = File("i_15_k.png");
 }
 apply (name:"Potato with cheese"||name:"Potato with butter"||name:"Chilli potato"||name:"Egg potato"||name:"Mushroom potato"||name:"Tuna potato"||name:"Baked potato") {
@@ -1013,10 +1014,13 @@ apply (name:"Mushroom"||name:"Mushrooms"||name:"Mort myre fungus"||name:"Stinkho
 apply (name:"Hammer"||name:"Saw"||name:"Needle") {
   icon = File("i_18_tool.png");
 }
-apply (name:"Flax"||name:"Cotton"||name:"Hemp"||name:"Thread") {
+apply (name:"Flax"||name:"Cotton"||name:"Hemp"||name:"Thread"||name:"Xerician fabric") {
   icon = File("i_18_fibre.png");
 }
 apply (name:"Strawberry"||name:"Jangerberries"||name:"Redberries"||name:"* berries"||name:"Dwellberries"||name:"Tomberries") {
+  icon = File("i_18_berry.png");
+}
+apply (name:"Elkhorn frag"||name:"Pillar frag"||name:"Umbral frag") {
   icon = File("i_18_berry.png");
 }
 
