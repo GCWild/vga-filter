@@ -1020,8 +1020,8 @@ apply (name:"Flax"||name:"Cotton"||name:"Hemp"||name:"Thread"||name:"Xerician fa
 apply (name:"Strawberry"||name:"Jangerberries"||name:"Redberries"||name:"* berries"||name:"Dwellberries"||name:"Tomberries") {
   icon = File("i_18_berry.png");
 }
-apply (name:"Elkhorn frag"||name:"Pillar frag"||name:"Umbral frag") {
-  icon = File("i_18_berry.png");
+apply (name:"Elkhorn frag"||name:"Pillar frag"||name:"Umbral frag"||name:"Elkhorn coral"||name:"Pillar coral"||name:"Umbral coral") {
+  icon = File("i_18_coral.png");
 }
 
 // -------------------------------------------------------------------------
