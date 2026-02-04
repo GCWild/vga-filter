@@ -13,7 +13,7 @@ meta { name = "vga-filter";
 // by gonekittywild
 
 // Items to hide
-HIDE("Bones")
+//HIDE("Bones")
 
 // Junk Item
 apply (value:<12)
@@ -246,7 +246,7 @@ apply (name:"Willow *"||name:"Maple *"||name:"Yew *"||name:"Achey *"||name:"Brum
 }
 
 // Onyx
-apply (name:"Onyx *"||name:"Black chinchompa"||name:"Regen bracelet"||name:"Berserker necklace"||name:"Ring of stone"||name:"Amulet of fury"||name:"Amulet of blood fury"||name:"Black d'hide *"||name:"Obsidian *") {
+apply (name:"Onyx *"||name:"Black chinchompa"||name:"Regen bracelet"||name:"Berserker necklace"||name:"Ring of stone"||name:"Amulet of fury"||name:"Amulet of blood fury"||name:"Black d'hide *"||name:"Obsidian *"||name:"Black *") {
   icon = File("i_4_c.png");
 }
 
@@ -1009,7 +1009,8 @@ apply (name:"Banana"||name:"Bananas*"||name:"Red banana") {
 apply (name:"Mushroom"||name:"Mushrooms"||name:"Mort myre fungus"||name:"Stinkhorn mushroom"||name:"Sulliuscep cap") {
   icon = File("i_15_z.png");
 }
-apply (name:"Hammer"||name:"Saw"||name:"Needle") {
+apply (name:"Hammer"||name:"Saw"||name:"Needle"||name:"Chisel"||name:"Knife"||name:"Machete"||name:"Pestle and mortar"||name:"Shears"||name:"Tinderbox"||name:"Fishing rod"||name:"* fishing rod"||name:"Harpoon"||name:"Glassblowing pipe"||name:"* fishing net"||name:"Barbarian rod"
+||name:"Karambwan vessel"||name:"* mould"||name:"Costume needle"||name:"Gardening trowel"||name:"Rake"||name:"Secateurs"||name:"Seed dibber"||name:"Spade") {
   icon = File("i_18_tool.png");
 }
 apply (name:"Flax"||name:"Cotton"||name:"Hemp"||name:"Thread"||name:"Xerician fabric") {
