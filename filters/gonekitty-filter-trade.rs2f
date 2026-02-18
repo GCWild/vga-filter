@@ -406,6 +406,50 @@ apply (name:"Topaz bolt tips") {
 }
 
 // -------------------------------------------------------------------------
+// Round smalls
+// -------------------------------------------------------------------------
+
+// Bronze RS
+apply (name:"Bronze cannonball") {
+  icon = File("i_19_a.png");
+}
+
+// Iron RS
+apply (name:"Iron cannonball") {
+  icon = File("i_19_b.png");
+}
+
+// Steel RS
+apply (name:"Steel cannonball") {
+  icon = File("i_19_c.png");
+}
+
+// Mithril RS
+apply (name:"Mithril cannonball") {
+  icon = File("i_19_d.png");
+}
+
+// Adamant RS
+apply (name:"Adamant cannonball") {
+  icon = File("i_19_e.png");
+}
+
+// Rune RS
+apply (name:"Rune cannonball") {
+  icon = File("i_19_f.png");
+}
+
+// Dragon RS
+apply (name:"Dragon cannonball") {
+  icon = File("i_19_g.png");
+}
+
+// Granite RS
+apply (name:"Granite cannonball") {
+  icon = File("i_19_h.png");
+}
+
+// -------------------------------------------------------------------------
 // Staff clause
 
 // Air Staff
