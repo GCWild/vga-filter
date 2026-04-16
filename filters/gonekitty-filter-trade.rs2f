@@ -12,8 +12,11 @@ meta { name = "vga-filter-trade";
 
 // by gonekittywild
 
-// Items to hide
-// Change value to filter out low value items to your liking
+// HIDE will hide drops based on your preference. Separate conditions with ||
+// Change value to filter out low value items to your liking. 
+// To enable HIDE make sure to remove the leading //. This will enable the rule.
+// For example, removing the // below will hide Bones and items worth less than 500gp
+
 // HIDE("Bones"||value:<500)
 
 // Junk Item
@@ -259,7 +262,8 @@ apply (name:"Iron *"||name:"Broad bolts"||name:"Chinchompa"||name:"Lead bar") {
 
 // Copper Large
 // Oak, Logs, Pyew, Arctic Pine, Scrapey tree, copper
-apply (name:"Logs"||name:"Logs and kindling"||name:"Pyre logs"||name:"Oak *"||name:"Arctic pine *"||name:"Scrapey tree *"||name:"Copper *"||name:"Cupronickel *") {
+apply (name:"Logs"||name:"Logs and kindling"||name:"Pyre logs"||name:"Oak *"||name:"Arctic pine *"||name:"Scrapey tree *"||name:"Copper *"||name:"Cupronickel *"
+||name:"Coif"||name:"Leather body"||name:"Leather boots"||name:"Leather chaps"||name:"Leather cowl"||name:"Leather gloves"||name:"Leather vambraces") {
   icon = File("i_4_e.png");
 }
 
@@ -980,7 +984,7 @@ apply (name:"Feather"||name:"Gryphon feather"||name:"Pheasant tail feather") {
 apply (name:"Shrimps"||name:"Herring"||name:"Mackerel"||name:"Lobster"||name:"Lava eel"||name:"Anchovies"||name:"Jumbo squid") {
   icon = File("i_15_a.png");
 }
-apply (name:"Trout"||name:"Pike"||name:"Salmon"||name:"Bass"||name:"Bluefin"||name:"Yellowfin"||name:"Haddock"||name:"Leaping salmon"||name:"Leaping trout") {
+apply (name:"Trout"||name:"Pike"||name:"Salmon"||name:"Bass"||name:"Bluefin"||name:"Yellowfin"||name:"Haddock"||name:"Leaping salmon"||name:"Leaping trout"||name:"Cod") {
   icon = File("i_15_b.png");
 }
 apply (name:"Tuna"||name:"Shark"||name:"Swordfish"||name:"Anglerfish"||name:"Blighted anglerfish"||name:"Marlin"||name:"Leaping sturgeon") {
