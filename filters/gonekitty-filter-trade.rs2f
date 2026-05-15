@@ -798,12 +798,12 @@ apply (name:""||name:"Super antifire*"||name:"Ancient brew*"||name:"Ancient mix*
 }
 
 // Purple, dark
-apply (name:""||name:"Antifire potion*"||name:"Antifire mix*"||name:"Extrended antifire*"||name:"Forgotten brew*"||name:"Anti-venom+*") {
+apply (name:""||name:"Antifire potion*"||name:"Antifire mix*"||name:"Extrended antifire*"||name:"Forgotten brew*"||name:"Anti-venom+*"||name:"Blighted super restore*") {
   icon = File("i_11_l.png");
 }
 
 // Green, light
-apply (name:"Antipoison*"||name:"Extrended anti-venom+*") {
+apply (name:"Antipoison*"||name:"Extrended anti-venom+*"||name:"Defence potion*") {
   icon = File("i_11_m.png");
 }
 
@@ -1088,6 +1088,7 @@ name:"Silver speedrun trophy"||name:"Gold speedrun trophy"||name:"Platinum speed
 
 // -------------------------------------------------------------------------
 // Boss drops
-apply (name:"Hueycoatl hide"||name:"Odium shard *"||name:"Malediction shard *"||name:"Skull of vet'ion"||name:"Steel ring"||name:"Tyrannical ring"||name:"Fangs of venenatis"||name:"Dossier"||name:"Forgotten lockbox"||name:"Unsired"||name:"Lamp"||name:"* lamp"||name:"Frozen cache") {
+apply (name:"Hueycoatl hide"||name:"Odium shard *"||name:"Malediction shard *"||name:"Skull of vet'ion"||name:"Steel ring"||name:"Tyrannical ring"||name:"Fangs of venenatis"||name:"Dossier"||name:"Forgotten lockbox"||name:"Unsired"||
+name:"Lamp"||name:"* lamp"||name:"Frozen cache"||name:"Immaculate mole skin") {
   icon = File("i_14_c.png");
 }
