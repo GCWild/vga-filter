@@ -158,7 +158,7 @@ apply (value:>200000||name:"Godsword shard *")
 }
 
 // Extreme rarity
-apply (value:>1000000||name:"* champion scroll"||name:"Jar of *"||name:"* head"||name:"Kq head (tattered)"||name:"* sigil"||name:"Dragonbane necklace"||name:"Noxious *"||name:"* mutagen"
+apply (value:>1000000||name:"* champion scroll"||name:"* head"||name:"Kq head (tattered)"||name:"* sigil"||name:"Dragonbane necklace"||name:"Noxious *"||name:"* mutagen"
 ||name:"Elysian sigil"||name:"Araxyte fang")
 {
   icon = File("i_2_i.png");
@@ -778,7 +778,7 @@ apply (name:"Divine super defence*"||name:"Zamorak brew*"||name:"Zamorak mix*") 
 }
 
 // Pink, light
-apply (name:"Sanfew serum*"||name:"Magic potion*"||name:"Magic mix*"||name:"Divine magic potion*") {
+apply (name:"Sanfew serum*"||name:"Magic potion*"||name:"Magic mix*"||name:"Divine magic potion*"||name:"Foul chunky potion*") {
   icon = File("i_11_i.png");
 }
 
@@ -828,7 +828,7 @@ apply (name:"Super strength*"||name:"Super str.*"||name:"Divine super strength*"
 }
 
 // Brown, saturated
-apply (name:"Relicym's*"||name:"Compost potion*"||name:"Prayer regeneration potion*") {
+apply (name:"Relicym's*"||name:"Compost potion*"||name:"Prayer regeneration potion*"||name:"Putrid sticky potion*") {
   icon = File("i_11_s.png");
 }
 
@@ -964,7 +964,7 @@ apply (name:"Superior dragon bones"||name:"Frost dragon bones") {
 // -------------------------------------------------------------------------
 
 apply (name:"Mossy key"||name:"Moon key"||name:"Loot key"||name:"Larran's key"||name:"Enhanced crystal key"||name:"Ecumenical key"||name:"Crystal key"||name:"Brimstone key"||name:"Bank key"||name:"Muddy key"||name:"Sinister key"||
-name:"Temple key"||name:"Zombie pirate key"||name:"* key *"||name:"Dark key"||name:"Key *"||name:"Ancestral key") {
+name:"Temple key"||name:"Zombie pirate key"||name:"* key *"||name:"Dark key"||name:"Key *"||name:"Ancestral key"||name:"* moon key") {
   icon = File("i_16.png");
 }
 
@@ -1042,7 +1042,7 @@ apply (name:"Strawberries*"||name:"White berries"||name:"Oranges*"||name:"Apples
 apply (name:"Cooked chicken"||name:"Cooked kyatt"||name:"Cooked pyre fox"||name:"Cooked dashing kebbit"||name:"Cooked chompy"||name:"Cooked rabbit"||name:"Honey locust"||name:"Cooked graahk") {
   icon = File("i_15_v.png");
 }
-apply (name:"Cooked meat"||name:"Cooked sunlight antelope"||name:"Cooked moonlight antelope"||name:"Cooked oomlie wrap"||name:"Cooked jubbly"||name:"Cooked larupia") {
+apply (name:"Cooked meat"||name:"Cooked sunlight antelope"||name:"Cooked moonlight antelope"||name:"Cooked oomlie wrap"||name:"Cooked jubbly"||name:"Cooked larupia"||name:"Mysterious jerky") {
   icon = File("i_15_w.png");
 }
 apply (name:"Purple sweets"||name:"Strange fruit"||name:"Chocolate bar") {
@@ -1084,7 +1084,7 @@ name:"Silver speedrun trophy"||name:"Gold speedrun trophy"||name:"Platinum speed
 // -------------------------------------------------------------------------
 // Boss drops
 apply (name:"Hueycoatl hide"||name:"Odium shard *"||name:"Malediction shard *"||name:"Skull of vet'ion"||name:"Steel ring"||name:"Tyrannical ring"||name:"Fangs of venenatis"||name:"Dossier"||name:"Forgotten lockbox"||name:"Unsired"||
-name:"Lamp"||name:"* lamp"||name:"Frozen cache"||name:"Immaculate mole skin") {
+name:"Lamp"||name:"* lamp"||name:"Frozen cache"||name:"Immaculate mole skin"||name:"Jar of *") {
   icon = File("i_14_c.png");
 }
 
