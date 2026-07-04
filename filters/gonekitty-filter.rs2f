@@ -773,17 +773,17 @@ apply (name:"Strength potion*"||name:"Strength mix*"||name:"Super defence*"||nam
 }
 
 // Yellow, dark
-apply (name:"Divine super defence*"||name:"Zamorak brew*"||name:"Zamorak mix*") {
+apply (name:"Divine super defence*"||name:"Zamorak brew*"||name:"Zamorak mix*"||name:"Rancid slimy potion*") {
   icon = File("i_11_h.png");
 }
 
 // Pink, light
-apply (name:"Sanfew serum*"||name:"Magic potion*"||name:"Magic mix*"||name:"Divine magic potion*"||name:"Foul chunky potion*") {
+apply (name:"Sanfew serum*"||name:"Magic potion*"||name:"Magic mix*"||name:"Divine magic potion*") {
   icon = File("i_11_i.png");
 }
 
 // Pink, dark
-apply (name:"Restore potion*"||name:"Weapon poison(+)") {
+apply (name:"Restore potion*"||name:"Weapon poison(+)"||name:"Foul chunky potion*") {
   icon = File("i_11_j.png");
 }
 
@@ -803,7 +803,7 @@ apply (name:"Antipoison*"||name:"Extrended anti-venom+*"||name:"Defence potion*"
 }
 
 // Green, dark
-apply (name:"Super combat potion*"||name:"Divine super combat*") {
+apply (name:"Super combat potion*"||name:"Divine super combat*"||name:"Rank frothy potion*") {
   icon = File("i_11_n.png");
 }
 
