@@ -581,7 +581,7 @@ apply (name:"Tanzanite mutagen"||name:"Magma mutagen"||name:"Zulrah's scales") {
 // -------------------------------------------------------------------------
 
 // Seeds
-apply (name:"* seed"||name:"* spore") {
+apply (name:"* seed"||name:"* spore"||name:"Letvek") {
   icon = File("i_6_seed.png");
 }
 
@@ -968,7 +968,7 @@ name:"Temple key"||name:"Zombie pirate key"||name:"* key *"||name:"Dark key"||na
   icon = File("i_16.png");
 }
 
-apply (name:"Feather"||name:"Gryphon feather"||name:"Pheasant tail feather") {
+apply (name:"Feather"||name:"Gryphon feather"||name:"Pheasant tail feather"||name:"Stymphike feather") {
   icon = File("i_17.png");
 }
 
@@ -1084,7 +1084,7 @@ name:"Silver speedrun trophy"||name:"Gold speedrun trophy"||name:"Platinum speed
 // -------------------------------------------------------------------------
 // Boss drops
 apply (name:"Hueycoatl hide"||name:"Odium shard *"||name:"Malediction shard *"||name:"Skull of vet'ion"||name:"Steel ring"||name:"Tyrannical ring"||name:"Fangs of venenatis"||name:"Dossier"||name:"Forgotten lockbox"||name:"Unsired"||
-name:"Lamp"||name:"* lamp"||name:"Frozen cache"||name:"Immaculate mole skin"||name:"Jar of *") {
+name:"Lamp"||name:"* lamp"||name:"Frozen cache"||name:"Immaculate mole skin"||name:"Jar of *"||name:"Elder venator fang") {
   icon = File("i_14_c.png");
 }
 
