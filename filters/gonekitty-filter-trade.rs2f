@@ -386,7 +386,7 @@ apply (name:"Adamantite ore"||name:"Adamant arrowtips"||name:"Adamant bolts(unf)
 
 // Green small
 // Emerald, green dragonhide
-apply (name:"Emerald amulet (u)"||name:"Emerald bolt tips"||name:"Green dragonhide"||name:"Green dragon leather") {
+apply (name:"Emerald amulet (u)"||name:"Emerald bolt tips"||name:"Green dragonhide"||name:"Green dragon leather"||name:"Alchemist's signet") {
   icon = File("i_4_l_s.png");
 }
 
@@ -941,7 +941,7 @@ apply (name:"Water orb") {
 
 // Bones
 
-apply (name:"Bones"||name:"Big bones"||name:"Bat bones"||name:"Wolf bones"||name:"Monkey bones"||name:"Sheep bones"||name:"Shaikahan bones"||name:"Alan's bones") {
+apply (name:"Bones"||name:"Big bones"||name:"Bat bones"||name:"Wolf bones"||name:"Monkey bones"||name:"Sheep bones"||name:"Shaikahan bones"||name:"Alan's bones"||name:"* remains") {
   icon = File("i_12_a.png");
 }
 apply (name:"Dagannoth bones"||name:""||name:"Bleached bones"||name:"Babydragon bones"||name:"Chewed bones"||name:"Fayrg bones"||name:"Jogre bones"||name:"Mangled bones"||name:"Ourg bones"||name:"Raurg bones"||name:"Zogre bones") {
