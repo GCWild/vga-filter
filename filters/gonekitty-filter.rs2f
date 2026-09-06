@@ -264,7 +264,7 @@ apply (name:"Logs"||name:"Logs and kindling"||name:"Pyre logs"||name:"Oak *"||na
 
 // Silver large
 // Steel, silver, diamond
-apply (name:"Silver *"||name:"Steel *"||name:"Diamond *"||name:"Ring of life"||name:"Phoenix necklace"||name:"Abyssal bracelet"||name:"Amulet of power") {
+apply (name:"Silver *"||name:"Steel *"||name:"Diamond *"||name:"Ring of life"||name:"Phoenix necklace"||name:"Abyssal bracelet"||name:"Amulet of power"||name:"Amulet of air") {
   icon = File("i_4_f.png");
 }
 
@@ -276,7 +276,8 @@ name:"Gold *"||name:"Atlatl dart") {
 
 // Red large
 // Ruby. red logs, red dhide
-apply (name:"Ruby *"||name:"Ring of forging"||name:"Digsite pendant"||name:"Inoculation bracelet"||name:"Amulet of strength"||name:"Red logs"||name:"Red d'hide *") {
+apply (name:"Ruby *"||name:"Ring of forging"||name:"Digsite pendant"||name:"Inoculation bracelet"||name:"Amulet of strength"||name:"Red logs"||name:"Red d'hide *"
+||name:"Amulet of fire") {
   icon = File("i_4_h.png");
 }
 
@@ -286,7 +287,7 @@ apply (name:"Dragon *"||name:"Red chinchompa") {
 }
 
 // Redwood
-apply (name:"Redwood *"||name:"Red mahogany *"||name:"Ironwood *") {
+apply (name:"Redwood *"||name:"Red mahogany *"||name:"Ironwood *"||name:"Elemental amulet") {
   icon = File("i_4_j.png");
 }
 
@@ -299,13 +300,14 @@ apply (name:"Jade *"||name:"Ogre arrows"||name:"Ring of returning"||name:"Neckla
 
 // Emerald
 apply (name:"Emerald *"||name:"Ring of dueling"||name:"Binding necklace"||name:"Castle wars bracelet"||name:"Amulet of defence"||name:"Amulet of nature"||name:"Green d'hide *"||name:"Green logs"
-||name:"Xeric's talisman") {
+||name:"Xeric's talisman"||name:"Amulet of earth") {
   icon = File("i_4_l.png");
 }
 
 // Mithril, blue d'hide, runite, sapphire, magic wood
 apply (name:"Mithril *"||name:"Blue d'hide *"||name:"Scaly blue dragonhide"||name:"Rune *"||name:"Runite *"||name:"Sapphire *"||name:"Ice arrows"||
-name:"Ring of recoil"||name:"Games necklace"||name:"Bracelet of clay"||name:"Amulet of magic"||name:"Magic *"||name:"Blue logs"||name:"Dream *") {
+name:"Ring of recoil"||name:"Games necklace"||name:"Bracelet of clay"||name:"Amulet of magic"||name:"Magic *"||name:"Blue logs"||name:"Dream *"
+||name:"Amulet of water") {
   icon = File("i_4_n.png");
 }
 
@@ -1084,7 +1086,7 @@ name:"Silver speedrun trophy"||name:"Gold speedrun trophy"||name:"Platinum speed
 // -------------------------------------------------------------------------
 // Boss drops
 apply (name:"Hueycoatl hide"||name:"Odium shard *"||name:"Malediction shard *"||name:"Skull of vet'ion"||name:"Steel ring"||name:"Tyrannical ring"||name:"Fangs of venenatis"||name:"Dossier"||name:"Forgotten lockbox"||name:"Unsired"||
-name:"Lamp"||name:"* lamp"||name:"Frozen cache"||name:"Immaculate mole skin"||name:"Jar of *"||name:"Elder venator fang") {
+name:"Lamp"||name:"* lamp"||name:"Frozen cache"||name:"Immaculate mole skin"||name:"Jar of *"||name:"Elder venator fang"||name:"Air diamond"||name:"Water sapphire"||name:"Earth emerald"||name:"Fire ruby") {
   icon = File("i_14_c.png");
 }
 
