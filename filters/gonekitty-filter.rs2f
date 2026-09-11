@@ -128,7 +128,7 @@ apply (value:>30000)
 }
 
 // Higher Value
-apply (value:>90000)
+apply (value:>90000||name:"Spirit seed")
 {
   icon = File("i_2_e.png");
   sound = "rar_2.wav";
